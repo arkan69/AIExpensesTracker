@@ -1,0 +1,22 @@
+# .NET build output
+bin/
+obj/
+
+# macOS
+.DS_Store
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+# Logs
+*.log
+
+# Local environment / secrets
+.env
+.env.*
+appsettings.Local.json
+appsettings.*.Local.json
