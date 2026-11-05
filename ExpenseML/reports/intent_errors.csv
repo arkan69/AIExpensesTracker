@@ -1,0 +1,5 @@
+﻿text,intent,type,category,scenario_group,predicted_intent
+total income dan expense,SummaryQuery,,,SummaryQuery_11,CreateTransaction
+ceritakan lelucon,Other,,,Other_06,CreateTransaction
+lagi ngapain,Other,,,Other_11,CreateTransaction
+aku suka ngoding,Other,,,Other_23,CreateTransaction

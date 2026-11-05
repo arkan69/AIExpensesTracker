@@ -1,0 +1,129 @@
+text,intent,category
+tadi siang makan pecel lele habis 28 ribu,CreateTransaction,Food
+sarapan lontong sayur kena 18rb,CreateTransaction,Food
+habis 42k buat ayam bakar,CreateTransaction,Food
+beli tempe tahu buat masak 17.500,CreateTransaction,Food
+pesen dimsum 46 ribuan,CreateTransaction,Food
+jajan es cendol sepulang kerja 12rb,CreateTransaction,Food
+beli daging ayam buat stok dapur 65k,CreateTransaction,Food
+ngemil pisang coklat tadi sore 15 ribu,CreateTransaction,Food
+naik transjakarta tadi kepotong 3500,CreateTransaction,Transport
+bayar gojek pulang 23rb,CreateTransaction,Transport
+ongkos bensin pertamax 80k,CreateTransaction,Transport
+parkir stasiun 8 ribu,CreateTransaction,Transport
+tadi bayar grabcar 67.000,CreateTransaction,Transport
+isi kartu commuter line 100rb,CreateTransaction,Transport
+biaya tambal ban bocor 15k,CreateTransaction,Transport
+bayar tiket bus antar kota 145 ribu,CreateTransaction,Transport
+tagihan indihome bulan ini 325rb,CreateTransaction,Bills
+isi token pln 200 ribu,CreateTransaction,Bills
+bayar air pdam 95k,CreateTransaction,Bills
+potongan admin rekening 12.500,CreateTransaction,Bills
+paket kuota telkomsel 55rb,CreateTransaction,Bills
+tagihan kartu halo 110k,CreateTransaction,Bills
+bayar iuran keamanan rt 30 ribu,CreateTransaction,Bills
+biaya langganan internet rumah 290.000,CreateTransaction,Bills
+biaya ikut bootcamp data 750rb,CreateTransaction,Education
+bayar spp adik 450 ribu,CreateTransaction,Education
+beli buku algoritma 125k,CreateTransaction,Education
+"daftar ujian sertifikasi cloud 1,2 juta",CreateTransaction,Education
+uang les piano anak 300rb,CreateTransaction,Education
+bayar kelas bahasa korea 180k,CreateTransaction,Education
+beli paket latihan utbk 89 ribu,CreateTransaction,Education
+biaya workshop excel 95rb,CreateTransaction,Education
+nonton film di cgv 65k,CreateTransaction,Entertainment
+top up game buat beli skin 120rb,CreateTransaction,Entertainment
+beli tiket standup comedy 175 ribu,CreateTransaction,Entertainment
+main timezone habis 70k,CreateTransaction,Entertainment
+sewa lapangan futsal bareng teman 250rb,CreateTransaction,Entertainment
+langganan spotify 55 ribu,CreateTransaction,Entertainment
+tiket masuk dufan 300k,CreateTransaction,Entertainment
+bayar netflix buat hiburan 54rb,CreateTransaction,Entertainment
+tebus resep antibiotik di apotek 48rb,CreateTransaction,Health
+konsultasi dokter gigi 250k,CreateTransaction,Health
+bayar cek asam urat 35 ribu,CreateTransaction,Health
+biaya usg di klinik 280rb,CreateTransaction,Health
+beli salep kulit 32k,CreateTransaction,Health
+kontrol ke spesialis mata 190 ribu,CreateTransaction,Health
+bayar tes swab di lab 75rb,CreateTransaction,Health
+biaya suntik vaksin 225k,CreateTransaction,Health
+"bayar uang kos november 1,4 juta",CreateTransaction,Housing
+servis ac kamar 175rb,CreateTransaction,Housing
+beli bantal dan sprei 240k,CreateTransaction,Housing
+ongkos tukang benerin wastafel 125 ribu,CreateTransaction,Housing
+bayar cicilan sewa apartemen 3 juta,CreateTransaction,Housing
+ganti kunci pintu rumah 90rb,CreateTransaction,Housing
+beli kursi kerja buat kamar 650k,CreateTransaction,Housing
+perbaikan genteng bocor 300rb,CreateTransaction,Housing
+checkout hoodie baru 220rb,CreateTransaction,Shopping
+beli flashdisk 64gb 85k,CreateTransaction,Shopping
+pesan charger usb c 125 ribu,CreateTransaction,Shopping
+belanja kaus kaki 35rb,CreateTransaction,Shopping
+beli earphone bluetooth 270k,CreateTransaction,Shopping
+checkout celana jeans 199.000,CreateTransaction,Shopping
+beli tas selempang 160rb,CreateTransaction,Shopping
+pesan tempered glass 25k,CreateTransaction,Shopping
+customer lunasin pesanan hampers 850rb,CreateTransaction,Business
+omzet jualan es teh hari ini 420k,CreateTransaction,Business
+klien bayar pembuatan aplikasi 4 juta,CreateTransaction,Business
+pembayaran dari pembeli toko masuk 135rb,CreateTransaction,Business
+hasil jualan keripik 290 ribu,CreateTransaction,Business
+uang jasa edit video dari pelanggan 600k,CreateTransaction,Business
+pemasukan usaha fotokopi 175rb,CreateTransaction,Business
+"invoice katering sudah dibayar 2,5jt",CreateTransaction,Business
+dapat uang kembalian deposit kos 500rb,CreateTransaction,Other Income
+teman balikin uang yang dipinjam 200k,CreateTransaction,Other Income
+dapat hadiah lomba foto 750 ribu,CreateTransaction,Other Income
+"refund tiket pesawat masuk 1,2jt",CreateTransaction,Other Income
+kakak ngasih uang jajan 100rb,CreateTransaction,Other Income
+cashback promo kartu 45k masuk,CreateTransaction,Other Income
+terima uang warisan keluarga 3 juta,CreateTransaction,Other Income
+dapat uang hadiah ulang tahun 250rb,CreateTransaction,Other Income
+"gaji kantor november masuk 8,7jt",CreateTransaction,Salary
+uang lembur bulan kemarin cair 450k,CreateTransaction,Salary
+dapat thr dari perusahaan 5 juta,CreateTransaction,Salary
+insentif pegawai masuk rekening 300rb,CreateTransaction,Salary
+"honor kerja bulanan cair 4,5 juta",CreateTransaction,Salary
+tunjangan jabatan ditransfer 700rb,CreateTransaction,Salary
+bonus performa dari kantor 1jt,CreateTransaction,Salary
+gajian tanggal 25 sebesar 9 juta,CreateTransaction,Salary
+kalau beli kopi tiap hari boros gak sih,Other,
+aku kepikiran mau ganti hp tahun depan,Other,
+jangan masukkan pengeluaran tadi,Other,
+bisa jelasin apa itu dana darurat,Other,
+belum jadi beli tiket ya,Other,
+aku lagi nunggu gajian nih,Other,
+tolong jangan simpan transaksi apapun,Other,
+cara ngatur uang biar gak cepat habis,Other,
+besok mau cek kesehatan dulu,Other,
+menurutmu enak makan apa malam ini,Other,
+aku cuma cerita habis belanja bukan minta dicatat,Other,
+kalau transfer ke teman aman gak,Other,
+gimana cara mulai nabung,Other,
+apakah kamu bisa bantu belajar c sharp,Other,
+sepertinya harga listrik naik lagi,Other,
+berapa harga emas sekarang ya,Other,
+rekap pengeluaran selama tujuh hari terakhir dong,SummaryQuery,
+bulan kemarin uangku habis berapa,SummaryQuery,
+total pemasukan dibanding pengeluaran november,SummaryQuery,
+tunjukin transaksi minggu ini,SummaryQuery,
+berapa kali aku belanja makanan bulan lalu,SummaryQuery,
+pengeluaran terbesar tahun ini dari kategori apa,SummaryQuery,
+laporan keuangan dari awal bulan sampai sekarang,SummaryQuery,
+total uang masuk tiga bulan terakhir,SummaryQuery,
+ringkas transaksi yang terjadi kemarin,SummaryQuery,
+berapa seluruh biaya transport selama oktober,SummaryQuery,
+tampilkan riwayat pengeluaran hari ini,SummaryQuery,
+jumlah pendapatan bulan berjalan berapa,SummaryQuery,
+jatah makan bulan ini masih ada berapa,BudgetQuery,
+anggaran bensin sudah kepakai berapa persen,BudgetQuery,
+sisa plafon belanja bulan november,BudgetQuery,
+budget kesehatan masih aman gak,BudgetQuery,
+berapa batas biaya hiburan yang tersisa,BudgetQuery,
+apakah uang kos sudah melewati anggaran,BudgetQuery,
+cek alokasi transport bulan ini,BudgetQuery,
+berapa dana yang boleh dipakai buat belanja,BudgetQuery,
+anggaran pendidikan sudah habis belum,BudgetQuery,
+status pemakaian budget makanan,BudgetQuery,
+berapa limit belanja tersisa minggu ini,BudgetQuery,
+tunjukin sisa jatah bulanan,BudgetQuery,

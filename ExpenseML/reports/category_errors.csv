@@ -1,0 +1,37 @@
+﻿text,intent,type,category,scenario_group,predicted_category
+catat jajan siomay 200rb,CreateTransaction,Expense,Food,food_07,Salary
+kemarin jajan siomay 1 juta,CreateTransaction,Expense,Food,food_07,Entertainment
+aku jajan siomay 8 juta,CreateTransaction,Expense,Food,food_07,Shopping
+beli roti 15rb,CreateTransaction,Expense,Food,food_08,Shopping
+pagi ini beli roti 35.000,CreateTransaction,Expense,Food,food_08,Shopping
+tolong catat beli roti 100k,CreateTransaction,Expense,Food,food_08,Shopping
+tolong catat bayar paket data 250.000,CreateTransaction,Expense,Bills,bills_04,Transport
+catat bayar iuran sampah 250.000,CreateTransaction,Expense,Bills,bills_07,Housing
+"kemarin bayar iuran sampah 1,5jt",CreateTransaction,Expense,Bills,bills_07,Housing
+hari ini main di arcade 20 ribu,CreateTransaction,Expense,Entertainment,entertainment_09,Food
+gue main di arcade 50rb,CreateTransaction,Expense,Entertainment,entertainment_09,Food
+tadi main di arcade 150 ribu,CreateTransaction,Expense,Entertainment,entertainment_09,Food
+tes darah 25k,CreateTransaction,Expense,Health,health_08,Other Income
+pagi ini tes darah 75 ribu,CreateTransaction,Expense,Health,health_08,Other Income
+tolong catat tes darah 200rb,CreateTransaction,Expense,Health,health_08,Other Income
+catat bayar vaksin 200rb,CreateTransaction,Expense,Health,health_11,Bills
+kemarin bayar vaksin 1 juta,CreateTransaction,Expense,Health,health_11,Bills
+aku bayar vaksin 8 juta,CreateTransaction,Expense,Health,health_11,Bills
+bayar kos 150 ribu,CreateTransaction,Expense,Housing,housing_00,Education
+pagi ini bayar kos 500rb,CreateTransaction,Expense,Housing,housing_00,Education
+tolong catat bayar kos 2 juta,CreateTransaction,Expense,Housing,housing_00,Education
+catat bayar perbaikan AC 1 juta,CreateTransaction,Expense,Housing,housing_07,Bills
+kemarin bayar perbaikan AC 8 juta,CreateTransaction,Expense,Housing,housing_07,Bills
+aku bayar perbaikan AC 25k,CreateTransaction,Expense,Housing,housing_07,Bills
+catat pendapatan toko online 8 juta,CreateTransaction,Income,Business,business_03,Transport
+kemarin pendapatan toko online 25k,CreateTransaction,Income,Business,business_03,Transport
+aku pendapatan toko online 75 ribu,CreateTransaction,Income,Business,business_03,Transport
+terima honor konsultasi 50rb,CreateTransaction,Income,Business,business_08,Health
+pagi ini terima honor konsultasi 150 ribu,CreateTransaction,Income,Business,business_08,Salary
+tolong catat terima honor konsultasi 500rb,CreateTransaction,Income,Business,business_08,Salary
+semalam terima cashback 1 juta,CreateTransaction,Income,Other Income,other_income_02,Salary
+minggu lalu terima cashback 8 juta,CreateTransaction,Income,Other Income,other_income_02,Salary
+barusan terima cashback 25k,CreateTransaction,Income,Other Income,other_income_02,Salary
+terima refund belanja 500rb,CreateTransaction,Income,Other Income,other_income_04,Shopping
+pagi ini terima refund belanja 2 juta,CreateTransaction,Income,Other Income,other_income_04,Shopping
+tolong catat terima refund belanja 20 ribu,CreateTransaction,Income,Other Income,other_income_04,Shopping

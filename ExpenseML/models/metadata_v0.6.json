@@ -1,0 +1,51 @@
+{
+  "version": "v0.6",
+  "created_utc": "2026-11-05T14:03:47.291906+00:00",
+  "language": "id",
+  "training_rows": 649,
+  "transaction_rows": 516,
+  "training_sources": [
+    "reports/train_split.csv",
+    "data/indonesian_expansion.csv"
+  ],
+  "training_sha256": {
+    "reports/train_split.csv": "21d4f0a12d768584b0700365ba654c38be880dfef79c0a88880f8148fe1b060a",
+    "data/indonesian_expansion.csv": "f321912a0d55f9d660499da3f1ea871d85c9553beccc4467eeb94d1a98b18b20"
+  },
+  "intent_classes": [
+    "BudgetQuery",
+    "CreateTransaction",
+    "Other",
+    "SummaryQuery"
+  ],
+  "category_classes": [
+    "Bills",
+    "Business",
+    "Education",
+    "Entertainment",
+    "Food",
+    "Health",
+    "Housing",
+    "Other Income",
+    "Salary",
+    "Shopping",
+    "Transport"
+  ],
+  "category_type": {
+    "Bills": "Expense",
+    "Business": "Income",
+    "Education": "Expense",
+    "Entertainment": "Expense",
+    "Food": "Expense",
+    "Health": "Expense",
+    "Housing": "Expense",
+    "Other Income": "Income",
+    "Salary": "Income",
+    "Shopping": "Expense",
+    "Transport": "Expense"
+  },
+  "intent_score": "predict_proba (model probability estimate; not externally calibrated)",
+  "category_score": "LinearSVC decision_function margin (NOT a probability)",
+  "safety": "prototype only; requires explicit confirmation before saving transactions",
+  "evaluation": "v0.5 synthetic challenge only; models refitted on development training rows"
+}

@@ -1,0 +1,469 @@
+text,intent,type,category,scenario_group
+beli nasi padang 50rb,CreateTransaction,Expense,Food,food_00
+pagi ini beli nasi padang 150 ribu,CreateTransaction,Expense,Food,food_00
+tolong catat beli nasi padang 500rb,CreateTransaction,Expense,Food,food_00
+hari ini makan bakso 1 juta,CreateTransaction,Expense,Food,food_01
+gue makan bakso 8 juta,CreateTransaction,Expense,Food,food_01
+tadi makan bakso 25k,CreateTransaction,Expense,Food,food_01
+semalam beli ayam geprek 35.000,CreateTransaction,Expense,Food,food_02
+minggu lalu beli ayam geprek 100k,CreateTransaction,Expense,Food,food_02
+barusan beli ayam geprek 250.000,CreateTransaction,Expense,Food,food_02
+catat sarapan bubur ayam 500rb,CreateTransaction,Expense,Food,food_03
+kemarin sarapan bubur ayam 2 juta,CreateTransaction,Expense,Food,food_03
+aku sarapan bubur ayam 20 ribu,CreateTransaction,Expense,Food,food_03
+pesan martabak 25k,CreateTransaction,Expense,Food,food_04
+pagi ini pesan martabak 75 ribu,CreateTransaction,Expense,Food,food_04
+tolong catat pesan martabak 200rb,CreateTransaction,Expense,Food,food_04
+hari ini ngopi di kafe 250.000,CreateTransaction,Expense,Food,food_05
+"gue ngopi di kafe 1,5jt",CreateTransaction,Expense,Food,food_05
+tadi ngopi di kafe 15rb,CreateTransaction,Expense,Food,food_05
+semalam beli nasi goreng 20 ribu,CreateTransaction,Expense,Food,food_06
+minggu lalu beli nasi goreng 50rb,CreateTransaction,Expense,Food,food_06
+barusan beli nasi goreng 150 ribu,CreateTransaction,Expense,Food,food_06
+catat jajan siomay 200rb,CreateTransaction,Expense,Food,food_07
+kemarin jajan siomay 1 juta,CreateTransaction,Expense,Food,food_07
+aku jajan siomay 8 juta,CreateTransaction,Expense,Food,food_07
+beli roti 15rb,CreateTransaction,Expense,Food,food_08
+pagi ini beli roti 35.000,CreateTransaction,Expense,Food,food_08
+tolong catat beli roti 100k,CreateTransaction,Expense,Food,food_08
+hari ini pesan sate ayam 150 ribu,CreateTransaction,Expense,Food,food_09
+gue pesan sate ayam 500rb,CreateTransaction,Expense,Food,food_09
+tadi pesan sate ayam 2 juta,CreateTransaction,Expense,Food,food_09
+semalam makan mie ayam 8 juta,CreateTransaction,Expense,Food,food_10
+minggu lalu makan mie ayam 25k,CreateTransaction,Expense,Food,food_10
+barusan makan mie ayam 75 ribu,CreateTransaction,Expense,Food,food_10
+catat beli es teh 100k,CreateTransaction,Expense,Food,food_11
+kemarin beli es teh 250.000,CreateTransaction,Expense,Food,food_11
+"aku beli es teh 1,5jt",CreateTransaction,Expense,Food,food_11
+isi bensin motor 250.000,CreateTransaction,Expense,Transport,transport_00
+"pagi ini isi bensin motor 1,5jt",CreateTransaction,Expense,Transport,transport_00
+tolong catat isi bensin motor 15rb,CreateTransaction,Expense,Transport,transport_00
+hari ini naik ojek online 20 ribu,CreateTransaction,Expense,Transport,transport_01
+gue naik ojek online 50rb,CreateTransaction,Expense,Transport,transport_01
+tadi naik ojek online 150 ribu,CreateTransaction,Expense,Transport,transport_01
+semalam bayar parkir 200rb,CreateTransaction,Expense,Transport,transport_02
+minggu lalu bayar parkir 1 juta,CreateTransaction,Expense,Transport,transport_02
+barusan bayar parkir 8 juta,CreateTransaction,Expense,Transport,transport_02
+catat isi saldo e toll 15rb,CreateTransaction,Expense,Transport,transport_03
+kemarin isi saldo e toll 35.000,CreateTransaction,Expense,Transport,transport_03
+aku isi saldo e toll 100k,CreateTransaction,Expense,Transport,transport_03
+naik KRL 150 ribu,CreateTransaction,Expense,Transport,transport_04
+pagi ini naik KRL 500rb,CreateTransaction,Expense,Transport,transport_04
+tolong catat naik KRL 2 juta,CreateTransaction,Expense,Transport,transport_04
+hari ini naik MRT 8 juta,CreateTransaction,Expense,Transport,transport_05
+gue naik MRT 25k,CreateTransaction,Expense,Transport,transport_05
+tadi naik MRT 75 ribu,CreateTransaction,Expense,Transport,transport_05
+semalam bayar taksi 100k,CreateTransaction,Expense,Transport,transport_06
+minggu lalu bayar taksi 250.000,CreateTransaction,Expense,Transport,transport_06
+"barusan bayar taksi 1,5jt",CreateTransaction,Expense,Transport,transport_06
+catat servis motor 2 juta,CreateTransaction,Expense,Transport,transport_07
+kemarin servis motor 20 ribu,CreateTransaction,Expense,Transport,transport_07
+aku servis motor 50rb,CreateTransaction,Expense,Transport,transport_07
+beli tiket bus 75 ribu,CreateTransaction,Expense,Transport,transport_08
+pagi ini beli tiket bus 200rb,CreateTransaction,Expense,Transport,transport_08
+tolong catat beli tiket bus 1 juta,CreateTransaction,Expense,Transport,transport_08
+"hari ini naik angkot 1,5jt",CreateTransaction,Expense,Transport,transport_09
+gue naik angkot 15rb,CreateTransaction,Expense,Transport,transport_09
+tadi naik angkot 35.000,CreateTransaction,Expense,Transport,transport_09
+semalam bayar tol 50rb,CreateTransaction,Expense,Transport,transport_10
+minggu lalu bayar tol 150 ribu,CreateTransaction,Expense,Transport,transport_10
+barusan bayar tol 500rb,CreateTransaction,Expense,Transport,transport_10
+catat naik kereta 1 juta,CreateTransaction,Expense,Transport,transport_11
+kemarin naik kereta 8 juta,CreateTransaction,Expense,Transport,transport_11
+aku naik kereta 25k,CreateTransaction,Expense,Transport,transport_11
+beli kaos 200rb,CreateTransaction,Expense,Shopping,shopping_00
+pagi ini beli kaos 1 juta,CreateTransaction,Expense,Shopping,shopping_00
+tolong catat beli kaos 8 juta,CreateTransaction,Expense,Shopping,shopping_00
+hari ini beli sepatu 15rb,CreateTransaction,Expense,Shopping,shopping_01
+gue beli sepatu 35.000,CreateTransaction,Expense,Shopping,shopping_01
+tadi beli sepatu 100k,CreateTransaction,Expense,Shopping,shopping_01
+semalam belanja celana 150 ribu,CreateTransaction,Expense,Shopping,shopping_02
+minggu lalu belanja celana 500rb,CreateTransaction,Expense,Shopping,shopping_02
+barusan belanja celana 2 juta,CreateTransaction,Expense,Shopping,shopping_02
+catat beli tas 8 juta,CreateTransaction,Expense,Shopping,shopping_03
+kemarin beli tas 25k,CreateTransaction,Expense,Shopping,shopping_03
+aku beli tas 75 ribu,CreateTransaction,Expense,Shopping,shopping_03
+beli charger 100k,CreateTransaction,Expense,Shopping,shopping_04
+pagi ini beli charger 250.000,CreateTransaction,Expense,Shopping,shopping_04
+"tolong catat beli charger 1,5jt",CreateTransaction,Expense,Shopping,shopping_04
+hari ini beli casing hp 2 juta,CreateTransaction,Expense,Shopping,shopping_05
+gue beli casing hp 20 ribu,CreateTransaction,Expense,Shopping,shopping_05
+tadi beli casing hp 50rb,CreateTransaction,Expense,Shopping,shopping_05
+semalam belanja sabun 75 ribu,CreateTransaction,Expense,Shopping,shopping_06
+minggu lalu belanja sabun 200rb,CreateTransaction,Expense,Shopping,shopping_06
+barusan belanja sabun 1 juta,CreateTransaction,Expense,Shopping,shopping_06
+"catat beli jaket 1,5jt",CreateTransaction,Expense,Shopping,shopping_07
+kemarin beli jaket 15rb,CreateTransaction,Expense,Shopping,shopping_07
+aku beli jaket 35.000,CreateTransaction,Expense,Shopping,shopping_07
+beli headset 50rb,CreateTransaction,Expense,Shopping,shopping_08
+pagi ini beli headset 150 ribu,CreateTransaction,Expense,Shopping,shopping_08
+tolong catat beli headset 500rb,CreateTransaction,Expense,Shopping,shopping_08
+hari ini beli mouse 1 juta,CreateTransaction,Expense,Shopping,shopping_09
+gue beli mouse 8 juta,CreateTransaction,Expense,Shopping,shopping_09
+tadi beli mouse 25k,CreateTransaction,Expense,Shopping,shopping_09
+semalam beli keyboard 35.000,CreateTransaction,Expense,Shopping,shopping_10
+minggu lalu beli keyboard 100k,CreateTransaction,Expense,Shopping,shopping_10
+barusan beli keyboard 250.000,CreateTransaction,Expense,Shopping,shopping_10
+catat belanja skincare 500rb,CreateTransaction,Expense,Shopping,shopping_11
+kemarin belanja skincare 2 juta,CreateTransaction,Expense,Shopping,shopping_11
+aku belanja skincare 20 ribu,CreateTransaction,Expense,Shopping,shopping_11
+bayar listrik 75 ribu,CreateTransaction,Expense,Bills,bills_00
+pagi ini bayar listrik 200rb,CreateTransaction,Expense,Bills,bills_00
+tolong catat bayar listrik 1 juta,CreateTransaction,Expense,Bills,bills_00
+"hari ini bayar tagihan internet 1,5jt",CreateTransaction,Expense,Bills,bills_01
+gue bayar tagihan internet 15rb,CreateTransaction,Expense,Bills,bills_01
+tadi bayar tagihan internet 35.000,CreateTransaction,Expense,Bills,bills_01
+semalam bayar air PAM 50rb,CreateTransaction,Expense,Bills,bills_02
+minggu lalu bayar air PAM 150 ribu,CreateTransaction,Expense,Bills,bills_02
+barusan bayar air PAM 500rb,CreateTransaction,Expense,Bills,bills_02
+catat bayar pulsa 1 juta,CreateTransaction,Expense,Bills,bills_03
+kemarin bayar pulsa 8 juta,CreateTransaction,Expense,Bills,bills_03
+aku bayar pulsa 25k,CreateTransaction,Expense,Bills,bills_03
+bayar paket data 35.000,CreateTransaction,Expense,Bills,bills_04
+pagi ini bayar paket data 100k,CreateTransaction,Expense,Bills,bills_04
+tolong catat bayar paket data 250.000,CreateTransaction,Expense,Bills,bills_04
+hari ini bayar langganan streaming 500rb,CreateTransaction,Expense,Bills,bills_05
+gue bayar langganan streaming 2 juta,CreateTransaction,Expense,Bills,bills_05
+tadi bayar langganan streaming 20 ribu,CreateTransaction,Expense,Bills,bills_05
+semalam bayar tagihan telepon 25k,CreateTransaction,Expense,Bills,bills_06
+minggu lalu bayar tagihan telepon 75 ribu,CreateTransaction,Expense,Bills,bills_06
+barusan bayar tagihan telepon 200rb,CreateTransaction,Expense,Bills,bills_06
+catat bayar iuran sampah 250.000,CreateTransaction,Expense,Bills,bills_07
+"kemarin bayar iuran sampah 1,5jt",CreateTransaction,Expense,Bills,bills_07
+aku bayar iuran sampah 15rb,CreateTransaction,Expense,Bills,bills_07
+bayar tagihan wifi 20 ribu,CreateTransaction,Expense,Bills,bills_08
+pagi ini bayar tagihan wifi 50rb,CreateTransaction,Expense,Bills,bills_08
+tolong catat bayar tagihan wifi 150 ribu,CreateTransaction,Expense,Bills,bills_08
+hari ini bayar tagihan kartu kredit 200rb,CreateTransaction,Expense,Bills,bills_09
+gue bayar tagihan kartu kredit 1 juta,CreateTransaction,Expense,Bills,bills_09
+tadi bayar tagihan kartu kredit 8 juta,CreateTransaction,Expense,Bills,bills_09
+semalam bayar iuran keamanan 15rb,CreateTransaction,Expense,Bills,bills_10
+minggu lalu bayar iuran keamanan 35.000,CreateTransaction,Expense,Bills,bills_10
+barusan bayar iuran keamanan 100k,CreateTransaction,Expense,Bills,bills_10
+catat bayar langganan cloud 150 ribu,CreateTransaction,Expense,Bills,bills_11
+kemarin bayar langganan cloud 500rb,CreateTransaction,Expense,Bills,bills_11
+aku bayar langganan cloud 2 juta,CreateTransaction,Expense,Bills,bills_11
+nonton bioskop 2 juta,CreateTransaction,Expense,Entertainment,entertainment_00
+pagi ini nonton bioskop 20 ribu,CreateTransaction,Expense,Entertainment,entertainment_00
+tolong catat nonton bioskop 50rb,CreateTransaction,Expense,Entertainment,entertainment_00
+hari ini beli game 75 ribu,CreateTransaction,Expense,Entertainment,entertainment_01
+gue beli game 200rb,CreateTransaction,Expense,Entertainment,entertainment_01
+tadi beli game 1 juta,CreateTransaction,Expense,Entertainment,entertainment_01
+"semalam top up game 1,5jt",CreateTransaction,Expense,Entertainment,entertainment_02
+minggu lalu top up game 15rb,CreateTransaction,Expense,Entertainment,entertainment_02
+barusan top up game 35.000,CreateTransaction,Expense,Entertainment,entertainment_02
+catat main bowling 50rb,CreateTransaction,Expense,Entertainment,entertainment_03
+kemarin main bowling 150 ribu,CreateTransaction,Expense,Entertainment,entertainment_03
+aku main bowling 500rb,CreateTransaction,Expense,Entertainment,entertainment_03
+karaoke bareng teman 1 juta,CreateTransaction,Expense,Entertainment,entertainment_04
+pagi ini karaoke bareng teman 8 juta,CreateTransaction,Expense,Entertainment,entertainment_04
+tolong catat karaoke bareng teman 25k,CreateTransaction,Expense,Entertainment,entertainment_04
+hari ini beli tiket konser 35.000,CreateTransaction,Expense,Entertainment,entertainment_05
+gue beli tiket konser 100k,CreateTransaction,Expense,Entertainment,entertainment_05
+tadi beli tiket konser 250.000,CreateTransaction,Expense,Entertainment,entertainment_05
+semalam main billiard 500rb,CreateTransaction,Expense,Entertainment,entertainment_06
+minggu lalu main billiard 2 juta,CreateTransaction,Expense,Entertainment,entertainment_06
+barusan main billiard 20 ribu,CreateTransaction,Expense,Entertainment,entertainment_06
+catat sewa lapangan futsal 25k,CreateTransaction,Expense,Entertainment,entertainment_07
+kemarin sewa lapangan futsal 75 ribu,CreateTransaction,Expense,Entertainment,entertainment_07
+aku sewa lapangan futsal 200rb,CreateTransaction,Expense,Entertainment,entertainment_07
+beli tiket wisata 250.000,CreateTransaction,Expense,Entertainment,entertainment_08
+"pagi ini beli tiket wisata 1,5jt",CreateTransaction,Expense,Entertainment,entertainment_08
+tolong catat beli tiket wisata 15rb,CreateTransaction,Expense,Entertainment,entertainment_08
+hari ini main di arcade 20 ribu,CreateTransaction,Expense,Entertainment,entertainment_09
+gue main di arcade 50rb,CreateTransaction,Expense,Entertainment,entertainment_09
+tadi main di arcade 150 ribu,CreateTransaction,Expense,Entertainment,entertainment_09
+semalam beli tiket festival 200rb,CreateTransaction,Expense,Entertainment,entertainment_10
+minggu lalu beli tiket festival 1 juta,CreateTransaction,Expense,Entertainment,entertainment_10
+barusan beli tiket festival 8 juta,CreateTransaction,Expense,Entertainment,entertainment_10
+catat sewa film 15rb,CreateTransaction,Expense,Entertainment,entertainment_11
+kemarin sewa film 35.000,CreateTransaction,Expense,Entertainment,entertainment_11
+aku sewa film 100k,CreateTransaction,Expense,Entertainment,entertainment_11
+beli obat 100k,CreateTransaction,Expense,Health,health_00
+pagi ini beli obat 250.000,CreateTransaction,Expense,Health,health_00
+"tolong catat beli obat 1,5jt",CreateTransaction,Expense,Health,health_00
+hari ini periksa ke dokter 2 juta,CreateTransaction,Expense,Health,health_01
+gue periksa ke dokter 20 ribu,CreateTransaction,Expense,Health,health_01
+tadi periksa ke dokter 50rb,CreateTransaction,Expense,Health,health_01
+semalam bayar konsultasi dokter 75 ribu,CreateTransaction,Expense,Health,health_02
+minggu lalu bayar konsultasi dokter 200rb,CreateTransaction,Expense,Health,health_02
+barusan bayar konsultasi dokter 1 juta,CreateTransaction,Expense,Health,health_02
+"catat beli vitamin 1,5jt",CreateTransaction,Expense,Health,health_03
+kemarin beli vitamin 15rb,CreateTransaction,Expense,Health,health_03
+aku beli vitamin 35.000,CreateTransaction,Expense,Health,health_03
+cek laboratorium 50rb,CreateTransaction,Expense,Health,health_04
+pagi ini cek laboratorium 150 ribu,CreateTransaction,Expense,Health,health_04
+tolong catat cek laboratorium 500rb,CreateTransaction,Expense,Health,health_04
+hari ini bayar dokter gigi 1 juta,CreateTransaction,Expense,Health,health_05
+gue bayar dokter gigi 8 juta,CreateTransaction,Expense,Health,health_05
+tadi bayar dokter gigi 25k,CreateTransaction,Expense,Health,health_05
+semalam beli masker medis 35.000,CreateTransaction,Expense,Health,health_06
+minggu lalu beli masker medis 100k,CreateTransaction,Expense,Health,health_06
+barusan beli masker medis 250.000,CreateTransaction,Expense,Health,health_06
+catat bayar fisioterapi 500rb,CreateTransaction,Expense,Health,health_07
+kemarin bayar fisioterapi 2 juta,CreateTransaction,Expense,Health,health_07
+aku bayar fisioterapi 20 ribu,CreateTransaction,Expense,Health,health_07
+tes darah 25k,CreateTransaction,Expense,Health,health_08
+pagi ini tes darah 75 ribu,CreateTransaction,Expense,Health,health_08
+tolong catat tes darah 200rb,CreateTransaction,Expense,Health,health_08
+hari ini beli plester 250.000,CreateTransaction,Expense,Health,health_09
+"gue beli plester 1,5jt",CreateTransaction,Expense,Health,health_09
+tadi beli plester 15rb,CreateTransaction,Expense,Health,health_09
+semalam periksa mata 20 ribu,CreateTransaction,Expense,Health,health_10
+minggu lalu periksa mata 50rb,CreateTransaction,Expense,Health,health_10
+barusan periksa mata 150 ribu,CreateTransaction,Expense,Health,health_10
+catat bayar vaksin 200rb,CreateTransaction,Expense,Health,health_11
+kemarin bayar vaksin 1 juta,CreateTransaction,Expense,Health,health_11
+aku bayar vaksin 8 juta,CreateTransaction,Expense,Health,health_11
+bayar kos 150 ribu,CreateTransaction,Expense,Housing,housing_00
+pagi ini bayar kos 500rb,CreateTransaction,Expense,Housing,housing_00
+tolong catat bayar kos 2 juta,CreateTransaction,Expense,Housing,housing_00
+hari ini bayar sewa kontrakan 8 juta,CreateTransaction,Expense,Housing,housing_01
+gue bayar sewa kontrakan 25k,CreateTransaction,Expense,Housing,housing_01
+tadi bayar sewa kontrakan 75 ribu,CreateTransaction,Expense,Housing,housing_01
+semalam beli galon untuk rumah 100k,CreateTransaction,Expense,Housing,housing_02
+minggu lalu beli galon untuk rumah 250.000,CreateTransaction,Expense,Housing,housing_02
+"barusan beli galon untuk rumah 1,5jt",CreateTransaction,Expense,Housing,housing_02
+catat bayar biaya kebersihan rumah 2 juta,CreateTransaction,Expense,Housing,housing_03
+kemarin bayar biaya kebersihan rumah 20 ribu,CreateTransaction,Expense,Housing,housing_03
+aku bayar biaya kebersihan rumah 50rb,CreateTransaction,Expense,Housing,housing_03
+beli perlengkapan dapur 75 ribu,CreateTransaction,Expense,Housing,housing_04
+pagi ini beli perlengkapan dapur 200rb,CreateTransaction,Expense,Housing,housing_04
+tolong catat beli perlengkapan dapur 1 juta,CreateTransaction,Expense,Housing,housing_04
+"hari ini bayar tukang ledeng 1,5jt",CreateTransaction,Expense,Housing,housing_05
+gue bayar tukang ledeng 15rb,CreateTransaction,Expense,Housing,housing_05
+tadi bayar tukang ledeng 35.000,CreateTransaction,Expense,Housing,housing_05
+semalam beli lampu rumah 50rb,CreateTransaction,Expense,Housing,housing_06
+minggu lalu beli lampu rumah 150 ribu,CreateTransaction,Expense,Housing,housing_06
+barusan beli lampu rumah 500rb,CreateTransaction,Expense,Housing,housing_06
+catat bayar perbaikan AC 1 juta,CreateTransaction,Expense,Housing,housing_07
+kemarin bayar perbaikan AC 8 juta,CreateTransaction,Expense,Housing,housing_07
+aku bayar perbaikan AC 25k,CreateTransaction,Expense,Housing,housing_07
+bayar iuran apartemen 35.000,CreateTransaction,Expense,Housing,housing_08
+pagi ini bayar iuran apartemen 100k,CreateTransaction,Expense,Housing,housing_08
+tolong catat bayar iuran apartemen 250.000,CreateTransaction,Expense,Housing,housing_08
+hari ini beli rak rumah 500rb,CreateTransaction,Expense,Housing,housing_09
+gue beli rak rumah 2 juta,CreateTransaction,Expense,Housing,housing_09
+tadi beli rak rumah 20 ribu,CreateTransaction,Expense,Housing,housing_09
+semalam bayar tukang cat 25k,CreateTransaction,Expense,Housing,housing_10
+minggu lalu bayar tukang cat 75 ribu,CreateTransaction,Expense,Housing,housing_10
+barusan bayar tukang cat 200rb,CreateTransaction,Expense,Housing,housing_10
+catat beli kasur 250.000,CreateTransaction,Expense,Housing,housing_11
+"kemarin beli kasur 1,5jt",CreateTransaction,Expense,Housing,housing_11
+aku beli kasur 15rb,CreateTransaction,Expense,Housing,housing_11
+beli buku kuliah 250.000,CreateTransaction,Expense,Education,education_00
+"pagi ini beli buku kuliah 1,5jt",CreateTransaction,Expense,Education,education_00
+tolong catat beli buku kuliah 15rb,CreateTransaction,Expense,Education,education_00
+hari ini bayar kursus online 20 ribu,CreateTransaction,Expense,Education,education_01
+gue bayar kursus online 50rb,CreateTransaction,Expense,Education,education_01
+tadi bayar kursus online 150 ribu,CreateTransaction,Expense,Education,education_01
+semalam bayar uang sekolah 200rb,CreateTransaction,Expense,Education,education_02
+minggu lalu bayar uang sekolah 1 juta,CreateTransaction,Expense,Education,education_02
+barusan bayar uang sekolah 8 juta,CreateTransaction,Expense,Education,education_02
+catat beli modul belajar 15rb,CreateTransaction,Expense,Education,education_03
+kemarin beli modul belajar 35.000,CreateTransaction,Expense,Education,education_03
+aku beli modul belajar 100k,CreateTransaction,Expense,Education,education_03
+bayar kelas bahasa inggris 150 ribu,CreateTransaction,Expense,Education,education_04
+pagi ini bayar kelas bahasa inggris 500rb,CreateTransaction,Expense,Education,education_04
+tolong catat bayar kelas bahasa inggris 2 juta,CreateTransaction,Expense,Education,education_04
+hari ini bayar pelatihan coding 8 juta,CreateTransaction,Expense,Education,education_05
+gue bayar pelatihan coding 25k,CreateTransaction,Expense,Education,education_05
+tadi bayar pelatihan coding 75 ribu,CreateTransaction,Expense,Education,education_05
+semalam beli buku pemrograman 100k,CreateTransaction,Expense,Education,education_06
+minggu lalu beli buku pemrograman 250.000,CreateTransaction,Expense,Education,education_06
+"barusan beli buku pemrograman 1,5jt",CreateTransaction,Expense,Education,education_06
+catat bayar sertifikasi 2 juta,CreateTransaction,Expense,Education,education_07
+kemarin bayar sertifikasi 20 ribu,CreateTransaction,Expense,Education,education_07
+aku bayar sertifikasi 50rb,CreateTransaction,Expense,Education,education_07
+bayar les matematika 75 ribu,CreateTransaction,Expense,Education,education_08
+pagi ini bayar les matematika 200rb,CreateTransaction,Expense,Education,education_08
+tolong catat bayar les matematika 1 juta,CreateTransaction,Expense,Education,education_08
+"hari ini beli alat tulis sekolah 1,5jt",CreateTransaction,Expense,Education,education_09
+gue beli alat tulis sekolah 15rb,CreateTransaction,Expense,Education,education_09
+tadi beli alat tulis sekolah 35.000,CreateTransaction,Expense,Education,education_09
+semalam bayar seminar 50rb,CreateTransaction,Expense,Education,education_10
+minggu lalu bayar seminar 150 ribu,CreateTransaction,Expense,Education,education_10
+barusan bayar seminar 500rb,CreateTransaction,Expense,Education,education_10
+catat bayar workshop 1 juta,CreateTransaction,Expense,Education,education_11
+kemarin bayar workshop 8 juta,CreateTransaction,Expense,Education,education_11
+aku bayar workshop 25k,CreateTransaction,Expense,Education,education_11
+terima gaji bulanan 100k,CreateTransaction,Income,Salary,salary_00
+pagi ini terima gaji bulanan 250.000,CreateTransaction,Income,Salary,salary_00
+"tolong catat terima gaji bulanan 1,5jt",CreateTransaction,Income,Salary,salary_00
+hari ini gajian 2 juta,CreateTransaction,Income,Salary,salary_01
+gue gajian 20 ribu,CreateTransaction,Income,Salary,salary_01
+tadi gajian 50rb,CreateTransaction,Income,Salary,salary_01
+semalam gaji masuk rekening 75 ribu,CreateTransaction,Income,Salary,salary_02
+minggu lalu gaji masuk rekening 200rb,CreateTransaction,Income,Salary,salary_02
+barusan gaji masuk rekening 1 juta,CreateTransaction,Income,Salary,salary_02
+"catat terima bonus kerja 1,5jt",CreateTransaction,Income,Salary,salary_03
+kemarin terima bonus kerja 15rb,CreateTransaction,Income,Salary,salary_03
+aku terima bonus kerja 35.000,CreateTransaction,Income,Salary,salary_03
+dapat THR kantor 50rb,CreateTransaction,Income,Salary,salary_04
+pagi ini dapat THR kantor 150 ribu,CreateTransaction,Income,Salary,salary_04
+tolong catat dapat THR kantor 500rb,CreateTransaction,Income,Salary,salary_04
+hari ini terima uang lembur 1 juta,CreateTransaction,Income,Salary,salary_05
+gue terima uang lembur 8 juta,CreateTransaction,Income,Salary,salary_05
+tadi terima uang lembur 25k,CreateTransaction,Income,Salary,salary_05
+semalam terima insentif kerja 35.000,CreateTransaction,Income,Salary,salary_06
+minggu lalu terima insentif kerja 100k,CreateTransaction,Income,Salary,salary_06
+barusan terima insentif kerja 250.000,CreateTransaction,Income,Salary,salary_06
+catat gaji bulan ini cair 500rb,CreateTransaction,Income,Salary,salary_07
+kemarin gaji bulan ini cair 2 juta,CreateTransaction,Income,Salary,salary_07
+aku gaji bulan ini cair 20 ribu,CreateTransaction,Income,Salary,salary_07
+bonus tahunan masuk 25k,CreateTransaction,Income,Salary,salary_08
+pagi ini bonus tahunan masuk 75 ribu,CreateTransaction,Income,Salary,salary_08
+tolong catat bonus tahunan masuk 200rb,CreateTransaction,Income,Salary,salary_08
+hari ini terima tunjangan kantor 250.000,CreateTransaction,Income,Salary,salary_09
+"gue terima tunjangan kantor 1,5jt",CreateTransaction,Income,Salary,salary_09
+tadi terima tunjangan kantor 15rb,CreateTransaction,Income,Salary,salary_09
+semalam terima komisi pekerjaan 20 ribu,CreateTransaction,Income,Salary,salary_10
+minggu lalu terima komisi pekerjaan 50rb,CreateTransaction,Income,Salary,salary_10
+barusan terima komisi pekerjaan 150 ribu,CreateTransaction,Income,Salary,salary_10
+catat dapat bonus performa 200rb,CreateTransaction,Income,Salary,salary_11
+kemarin dapat bonus performa 1 juta,CreateTransaction,Income,Salary,salary_11
+aku dapat bonus performa 8 juta,CreateTransaction,Income,Salary,salary_11
+terima pembayaran freelance 200rb,CreateTransaction,Income,Business,business_00
+pagi ini terima pembayaran freelance 1 juta,CreateTransaction,Income,Business,business_00
+tolong catat terima pembayaran freelance 8 juta,CreateTransaction,Income,Business,business_00
+hari ini dapat uang dari jualan 15rb,CreateTransaction,Income,Business,business_01
+gue dapat uang dari jualan 35.000,CreateTransaction,Income,Business,business_01
+tadi dapat uang dari jualan 100k,CreateTransaction,Income,Business,business_01
+semalam terima pembayaran klien 150 ribu,CreateTransaction,Income,Business,business_02
+minggu lalu terima pembayaran klien 500rb,CreateTransaction,Income,Business,business_02
+barusan terima pembayaran klien 2 juta,CreateTransaction,Income,Business,business_02
+catat pendapatan toko online 8 juta,CreateTransaction,Income,Business,business_03
+kemarin pendapatan toko online 25k,CreateTransaction,Income,Business,business_03
+aku pendapatan toko online 75 ribu,CreateTransaction,Income,Business,business_03
+dapat hasil proyek 100k,CreateTransaction,Income,Business,business_04
+pagi ini dapat hasil proyek 250.000,CreateTransaction,Income,Business,business_04
+"tolong catat dapat hasil proyek 1,5jt",CreateTransaction,Income,Business,business_04
+hari ini terima fee desain 2 juta,CreateTransaction,Income,Business,business_05
+gue terima fee desain 20 ribu,CreateTransaction,Income,Business,business_05
+tadi terima fee desain 50rb,CreateTransaction,Income,Business,business_05
+semalam hasil jual produk 75 ribu,CreateTransaction,Income,Business,business_06
+minggu lalu hasil jual produk 200rb,CreateTransaction,Income,Business,business_06
+barusan hasil jual produk 1 juta,CreateTransaction,Income,Business,business_06
+"catat pemasukan usaha kecil 1,5jt",CreateTransaction,Income,Business,business_07
+kemarin pemasukan usaha kecil 15rb,CreateTransaction,Income,Business,business_07
+aku pemasukan usaha kecil 35.000,CreateTransaction,Income,Business,business_07
+terima honor konsultasi 50rb,CreateTransaction,Income,Business,business_08
+pagi ini terima honor konsultasi 150 ribu,CreateTransaction,Income,Business,business_08
+tolong catat terima honor konsultasi 500rb,CreateTransaction,Income,Business,business_08
+hari ini dapat komisi penjualan 1 juta,CreateTransaction,Income,Business,business_09
+gue dapat komisi penjualan 8 juta,CreateTransaction,Income,Business,business_09
+tadi dapat komisi penjualan 25k,CreateTransaction,Income,Business,business_09
+semalam dibayar untuk jasa coding 35.000,CreateTransaction,Income,Business,business_10
+minggu lalu dibayar untuk jasa coding 100k,CreateTransaction,Income,Business,business_10
+barusan dibayar untuk jasa coding 250.000,CreateTransaction,Income,Business,business_10
+catat terima uang dari pelanggan 500rb,CreateTransaction,Income,Business,business_11
+kemarin terima uang dari pelanggan 2 juta,CreateTransaction,Income,Business,business_11
+aku terima uang dari pelanggan 20 ribu,CreateTransaction,Income,Business,business_11
+"dapat hadiah uang 1,5jt",CreateTransaction,Income,Other Income,other_income_00
+pagi ini dapat hadiah uang 15rb,CreateTransaction,Income,Other Income,other_income_00
+tolong catat dapat hadiah uang 35.000,CreateTransaction,Income,Other Income,other_income_00
+hari ini dapat uang ulang tahun 50rb,CreateTransaction,Income,Other Income,other_income_01
+gue dapat uang ulang tahun 150 ribu,CreateTransaction,Income,Other Income,other_income_01
+tadi dapat uang ulang tahun 500rb,CreateTransaction,Income,Other Income,other_income_01
+semalam terima cashback 1 juta,CreateTransaction,Income,Other Income,other_income_02
+minggu lalu terima cashback 8 juta,CreateTransaction,Income,Other Income,other_income_02
+barusan terima cashback 25k,CreateTransaction,Income,Other Income,other_income_02
+catat dapat uang dari saudara 35.000,CreateTransaction,Income,Other Income,other_income_03
+kemarin dapat uang dari saudara 100k,CreateTransaction,Income,Other Income,other_income_03
+aku dapat uang dari saudara 250.000,CreateTransaction,Income,Other Income,other_income_03
+terima refund belanja 500rb,CreateTransaction,Income,Other Income,other_income_04
+pagi ini terima refund belanja 2 juta,CreateTransaction,Income,Other Income,other_income_04
+tolong catat terima refund belanja 20 ribu,CreateTransaction,Income,Other Income,other_income_04
+hari ini dapat hadiah lomba 25k,CreateTransaction,Income,Other Income,other_income_05
+gue dapat hadiah lomba 75 ribu,CreateTransaction,Income,Other Income,other_income_05
+tadi dapat hadiah lomba 200rb,CreateTransaction,Income,Other Income,other_income_05
+semalam terima uang pemberian 250.000,CreateTransaction,Income,Other Income,other_income_06
+"minggu lalu terima uang pemberian 1,5jt",CreateTransaction,Income,Other Income,other_income_06
+barusan terima uang pemberian 15rb,CreateTransaction,Income,Other Income,other_income_06
+catat dapat uang tak terduga 20 ribu,CreateTransaction,Income,Other Income,other_income_07
+kemarin dapat uang tak terduga 50rb,CreateTransaction,Income,Other Income,other_income_07
+aku dapat uang tak terduga 150 ribu,CreateTransaction,Income,Other Income,other_income_07
+terima pengembalian dana 200rb,CreateTransaction,Income,Other Income,other_income_08
+pagi ini terima pengembalian dana 1 juta,CreateTransaction,Income,Other Income,other_income_08
+tolong catat terima pengembalian dana 8 juta,CreateTransaction,Income,Other Income,other_income_08
+hari ini dapat bonus referral 15rb,CreateTransaction,Income,Other Income,other_income_09
+gue dapat bonus referral 35.000,CreateTransaction,Income,Other Income,other_income_09
+tadi dapat bonus referral 100k,CreateTransaction,Income,Other Income,other_income_09
+semalam terima uang hadiah 150 ribu,CreateTransaction,Income,Other Income,other_income_10
+minggu lalu terima uang hadiah 500rb,CreateTransaction,Income,Other Income,other_income_10
+barusan terima uang hadiah 2 juta,CreateTransaction,Income,Other Income,other_income_10
+catat dapat uang dari teman 8 juta,CreateTransaction,Income,Other Income,other_income_11
+kemarin dapat uang dari teman 25k,CreateTransaction,Income,Other Income,other_income_11
+aku dapat uang dari teman 75 ribu,CreateTransaction,Income,Other Income,other_income_11
+berapa pengeluaran bulan ini,SummaryQuery,,,SummaryQuery_00
+total pemasukan bulan ini berapa,SummaryQuery,,,SummaryQuery_01
+lihat ringkasan keuangan,SummaryQuery,,,SummaryQuery_02
+berapa saldo bersih bulan lalu,SummaryQuery,,,SummaryQuery_03
+rekap transaksi bulan ini,SummaryQuery,,,SummaryQuery_04
+tampilkan total expense,SummaryQuery,,,SummaryQuery_05
+berapa uang yang masuk minggu ini,SummaryQuery,,,SummaryQuery_06
+berapa total belanja bulan lalu,SummaryQuery,,,SummaryQuery_07
+ringkasan keuangan oktober,SummaryQuery,,,SummaryQuery_08
+cek total pendapatan,SummaryQuery,,,SummaryQuery_09
+lihat pengeluaran per kategori,SummaryQuery,,,SummaryQuery_10
+total income dan expense,SummaryQuery,,,SummaryQuery_11
+laporan keuangan bulan ini,SummaryQuery,,,SummaryQuery_12
+berapa selisih pemasukan dan pengeluaran,SummaryQuery,,,SummaryQuery_13
+rekap pengeluaran november,SummaryQuery,,,SummaryQuery_14
+tampilkan summary bulan lalu,SummaryQuery,,,SummaryQuery_15
+berapa uang keluar bulan ini,SummaryQuery,,,SummaryQuery_16
+minta laporan transaksi bulanan,SummaryQuery,,,SummaryQuery_17
+berapa total biaya makan bulan ini,SummaryQuery,,,SummaryQuery_18
+cek ringkasan pendapatan tahun ini,SummaryQuery,,,SummaryQuery_19
+lihat laporan pengeluaran september,SummaryQuery,,,SummaryQuery_20
+berapa balance bulan ini,SummaryQuery,,,SummaryQuery_21
+rekap pemasukan tahun ini,SummaryQuery,,,SummaryQuery_22
+tampilkan pengeluaran kategori transport,SummaryQuery,,,SummaryQuery_23
+sisa budget makan berapa,BudgetQuery,,,BudgetQuery_00
+budget transport bulan ini masih ada,BudgetQuery,,,BudgetQuery_01
+cek anggaran belanja,BudgetQuery,,,BudgetQuery_02
+berapa persen budget food terpakai,BudgetQuery,,,BudgetQuery_03
+apakah budget kos sudah habis,BudgetQuery,,,BudgetQuery_04
+lihat batas budget bulan ini,BudgetQuery,,,BudgetQuery_05
+budget hiburan masih aman,BudgetQuery,,,BudgetQuery_06
+cek penggunaan budget,BudgetQuery,,,BudgetQuery_07
+berapa sisa anggaran pendidikan,BudgetQuery,,,BudgetQuery_08
+apakah pengeluaran melebihi budget,BudgetQuery,,,BudgetQuery_09
+lihat status budget kesehatan,BudgetQuery,,,BudgetQuery_10
+budget shopping bulan lalu,BudgetQuery,,,BudgetQuery_11
+berapa limit budget transport,BudgetQuery,,,BudgetQuery_12
+cek budget yang sudah exceeded,BudgetQuery,,,BudgetQuery_13
+budget makan tinggal berapa,BudgetQuery,,,BudgetQuery_14
+anggaran bulanan masih cukup,BudgetQuery,,,BudgetQuery_15
+berapa total budget bulan ini,BudgetQuery,,,BudgetQuery_16
+tampilkan semua budget,BudgetQuery,,,BudgetQuery_17
+cek budget kategori bills,BudgetQuery,,,BudgetQuery_18
+berapa budget yang tersisa,BudgetQuery,,,BudgetQuery_19
+penggunaan anggaran bulan november,BudgetQuery,,,BudgetQuery_20
+apakah budget food sudah warning,BudgetQuery,,,BudgetQuery_21
+budget housing masih berapa,BudgetQuery,,,BudgetQuery_22
+lihat persentase pemakaian budget,BudgetQuery,,,BudgetQuery_23
+halo bot,Other,,,Other_00
+selamat pagi,Other,,,Other_01
+terima kasih,Other,,,Other_02
+siapa kamu,Other,,,Other_03
+bisa bantu apa,Other,,,Other_04
+cuaca hari ini gimana,Other,,,Other_05
+ceritakan lelucon,Other,,,Other_06
+tolong bantu aku,Other,,,Other_07
+apa kabar,Other,,,Other_08
+aku mau tidur,Other,,,Other_09
+jam berapa sekarang,Other,,,Other_10
+lagi ngapain,Other,,,Other_11
+buka aplikasi,Other,,,Other_12
+selamat malam,Other,,,Other_13
+ini cuma tes,Other,,,Other_14
+coba satu dua tiga,Other,,,Other_15
+kamu robot ya,Other,,,Other_16
+aku lagi belajar python,Other,,,Other_17
+hari ini hari apa,Other,,,Other_18
+bisa bahasa indonesia,Other,,,Other_19
+tes koneksi bot,Other,,,Other_20
+help dong,Other,,,Other_21
+hai semuanya,Other,,,Other_22
+aku suka ngoding,Other,,,Other_23

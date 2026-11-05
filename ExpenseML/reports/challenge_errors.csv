@@ -1,0 +1,65 @@
+task,version,text,actual,predicted
+intent,baseline,tagihan indihome bulan ini 325rb,CreateTransaction,SummaryQuery
+intent,baseline,kalau beli kopi tiap hari boros gak sih,Other,CreateTransaction
+intent,baseline,aku kepikiran mau ganti hp tahun depan,Other,CreateTransaction
+intent,baseline,jangan masukkan pengeluaran tadi,Other,SummaryQuery
+intent,baseline,belum jadi beli tiket ya,Other,CreateTransaction
+intent,baseline,tolong jangan simpan transaksi apapun,Other,SummaryQuery
+intent,baseline,cara ngatur uang biar gak cepat habis,Other,CreateTransaction
+intent,baseline,aku cuma cerita habis belanja bukan minta dicatat,Other,CreateTransaction
+intent,baseline,kalau transfer ke teman aman gak,Other,CreateTransaction
+intent,baseline,sepertinya harga listrik naik lagi,Other,CreateTransaction
+intent,baseline,jatah makan bulan ini masih ada berapa,BudgetQuery,SummaryQuery
+intent,baseline,sisa plafon belanja bulan november,BudgetQuery,SummaryQuery
+intent,baseline,cek alokasi transport bulan ini,BudgetQuery,SummaryQuery
+intent,baseline,tunjukin sisa jatah bulanan,BudgetQuery,CreateTransaction
+intent,augmented,kalau beli kopi tiap hari boros gak sih,Other,CreateTransaction
+intent,augmented,jangan masukkan pengeluaran tadi,Other,SummaryQuery
+intent,augmented,belum jadi beli tiket ya,Other,CreateTransaction
+intent,augmented,kalau transfer ke teman aman gak,Other,CreateTransaction
+category,baseline,beli tempe tahu buat masak 17.500,Food,Shopping
+category,baseline,pesen dimsum 46 ribuan,Food,Business
+category,baseline,jajan es cendol sepulang kerja 12rb,Food,Salary
+category,baseline,ngemil pisang coklat tadi sore 15 ribu,Food,Business
+category,baseline,bayar gojek pulang 23rb,Transport,Bills
+category,baseline,tadi bayar grabcar 67.000,Transport,Education
+category,baseline,biaya tambal ban bocor 15k,Transport,Housing
+category,baseline,isi token pln 200 ribu,Bills,Transport
+category,baseline,potongan admin rekening 12.500,Bills,Entertainment
+category,baseline,paket kuota telkomsel 55rb,Bills,Shopping
+category,baseline,biaya langganan internet rumah 290.000,Bills,Housing
+category,baseline,biaya ikut bootcamp data 750rb,Education,Housing
+category,baseline,"daftar ujian sertifikasi cloud 1,2 juta",Education,Bills
+category,baseline,beli paket latihan utbk 89 ribu,Education,Shopping
+category,baseline,langganan spotify 55 ribu,Entertainment,Bills
+category,baseline,tiket masuk dufan 300k,Entertainment,Salary
+category,baseline,bayar netflix buat hiburan 54rb,Entertainment,Bills
+category,baseline,tebus resep antibiotik di apotek 48rb,Health,Food
+category,baseline,biaya usg di klinik 280rb,Health,Food
+category,baseline,beli salep kulit 32k,Health,Shopping
+category,baseline,bayar tes swab di lab 75rb,Health,Food
+category,baseline,biaya suntik vaksin 225k,Health,Housing
+category,baseline,"bayar uang kos november 1,4 juta",Housing,Education
+category,baseline,servis ac kamar 175rb,Housing,Education
+category,baseline,beli bantal dan sprei 240k,Housing,Shopping
+category,baseline,beli kursi kerja buat kamar 650k,Housing,Salary
+category,baseline,perbaikan genteng bocor 300rb,Housing,Salary
+category,baseline,checkout hoodie baru 220rb,Shopping,Entertainment
+category,baseline,pesan tempered glass 25k,Shopping,Food
+category,baseline,customer lunasin pesanan hampers 850rb,Business,Food
+category,baseline,omzet jualan es teh hari ini 420k,Business,Food
+category,baseline,"refund tiket pesawat masuk 1,2jt",Other Income,Entertainment
+category,baseline,cashback promo kartu 45k masuk,Other Income,Salary
+category,baseline,tunjangan jabatan ditransfer 700rb,Salary,Business
+category,augmented,pesen dimsum 46 ribuan,Food,Health
+category,augmented,tadi bayar grabcar 67.000,Transport,Bills
+category,augmented,isi token pln 200 ribu,Bills,Transport
+category,augmented,bayar spp adik 450 ribu,Education,Bills
+category,augmented,beli paket latihan utbk 89 ribu,Education,Bills
+category,augmented,langganan spotify 55 ribu,Entertainment,Bills
+category,augmented,beli salep kulit 32k,Health,Shopping
+category,augmented,"bayar uang kos november 1,4 juta",Housing,Education
+category,augmented,beli bantal dan sprei 240k,Housing,Food
+category,augmented,pesan tempered glass 25k,Shopping,Food
+category,augmented,"refund tiket pesawat masuk 1,2jt",Other Income,Entertainment
+category,augmented,kakak ngasih uang jajan 100rb,Other Income,Food

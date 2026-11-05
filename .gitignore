@@ -20,3 +20,9 @@ obj/
 .env.*
 appsettings.Local.json
 appsettings.*.Local.json
+
+# Python / ML
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/

@@ -1,0 +1,275 @@
+text,intent,type,category,scenario_group
+beli roti tawar buat sarapan,CreateTransaction,Expense,Food,v04_food_00
+jajan siomay depan kantor,CreateTransaction,Expense,Food,v04_food_01
+pesan nasi padang buat makan siang,CreateTransaction,Expense,Food,v04_food_02
+beli gorengan di warung,CreateTransaction,Expense,Food,v04_food_03
+makan bakso sepulang kerja,CreateTransaction,Expense,Food,v04_food_04
+beli telur dan sayur untuk masak,CreateTransaction,Expense,Food,v04_food_05
+ngopi di kedai dekat rumah,CreateTransaction,Expense,Food,v04_food_06
+beli seblak pedas,CreateTransaction,Expense,Food,v04_food_07
+pesan ayam geprek lewat aplikasi,CreateTransaction,Expense,Food,v04_food_08
+beli buah di pasar,CreateTransaction,Expense,Food,v04_food_09
+bayar makan malam di warteg,CreateTransaction,Expense,Food,v04_food_10
+sarapan bubur ayam,CreateTransaction,Expense,Food,v04_food_11
+beli susu dan sereal,CreateTransaction,Expense,Food,v04_food_12
+jajan cilok sore ini,CreateTransaction,Expense,Food,v04_food_13
+beli beras untuk dapur,CreateTransaction,Expense,Food,v04_food_14
+pesan martabak manis,CreateTransaction,Expense,Food,v04_food_15
+makan soto ayam,CreateTransaction,Expense,Food,v04_food_16
+beli air mineral dan roti,CreateTransaction,Expense,Food,v04_food_17
+isi bensin motor di spbu,CreateTransaction,Expense,Transport,v04_transport_00
+bayar parkir motor di mal,CreateTransaction,Expense,Transport,v04_transport_01
+naik ojek online ke kantor,CreateTransaction,Expense,Transport,v04_transport_02
+isi saldo kartu tol,CreateTransaction,Expense,Transport,v04_transport_03
+bayar tiket kereta komuter,CreateTransaction,Expense,Transport,v04_transport_04
+naik bus ke terminal,CreateTransaction,Expense,Transport,v04_transport_05
+ongkos angkot pulang kerja,CreateTransaction,Expense,Transport,v04_transport_06
+bayar servis rem motor,CreateTransaction,Expense,Transport,v04_transport_07
+ganti oli motor di bengkel,CreateTransaction,Expense,Transport,v04_transport_08
+bayar taksi ke bandara,CreateTransaction,Expense,Transport,v04_transport_09
+isi pertalite untuk perjalanan,CreateTransaction,Expense,Transport,v04_transport_10
+bayar parkir mobil harian,CreateTransaction,Expense,Transport,v04_transport_11
+beli tiket kapal penyeberangan,CreateTransaction,Expense,Transport,v04_transport_12
+bayar cuci motor,CreateTransaction,Expense,Transport,v04_transport_13
+ongkos travel antarkota,CreateTransaction,Expense,Transport,v04_transport_14
+bayar tambal ban,CreateTransaction,Expense,Transport,v04_transport_15
+naik kereta ke bogor,CreateTransaction,Expense,Transport,v04_transport_16
+bayar biaya tol perjalanan,CreateTransaction,Expense,Transport,v04_transport_17
+bayar token listrik prabayar,CreateTransaction,Expense,Bills,v04_bills_00
+bayar tagihan listrik bulan ini,CreateTransaction,Expense,Bills,v04_bills_01
+bayar paket data internet,CreateTransaction,Expense,Bills,v04_bills_02
+perpanjang paket telepon bulanan,CreateTransaction,Expense,Bills,v04_bills_03
+bayar iuran sampah lingkungan,CreateTransaction,Expense,Bills,v04_bills_04
+bayar tagihan air pam,CreateTransaction,Expense,Bills,v04_bills_05
+bayar langganan wifi rumah,CreateTransaction,Expense,Bills,v04_bills_06
+bayar iuran keamanan komplek,CreateTransaction,Expense,Bills,v04_bills_07
+bayar tagihan pascabayar hp,CreateTransaction,Expense,Bills,v04_bills_08
+isi ulang pulsa untuk komunikasi,CreateTransaction,Expense,Bills,v04_bills_09
+bayar biaya administrasi bank,CreateTransaction,Expense,Bills,v04_bills_10
+bayar tagihan gas rumah,CreateTransaction,Expense,Bills,v04_bills_11
+bayar langganan internet kabel,CreateTransaction,Expense,Bills,v04_bills_12
+bayar tagihan telepon rumah,CreateTransaction,Expense,Bills,v04_bills_13
+bayar iuran rt bulanan,CreateTransaction,Expense,Bills,v04_bills_14
+bayar tagihan tv kabel,CreateTransaction,Expense,Bills,v04_bills_15
+bayar paket internet bulanan,CreateTransaction,Expense,Bills,v04_bills_16
+bayar biaya layanan rekening,CreateTransaction,Expense,Bills,v04_bills_17
+bayar uang kuliah semester,CreateTransaction,Expense,Education,v04_education_00
+beli buku pelajaran sekolah,CreateTransaction,Expense,Education,v04_education_01
+daftar kursus bahasa jepang,CreateTransaction,Expense,Education,v04_education_02
+bayar les matematika,CreateTransaction,Expense,Education,v04_education_03
+beli modul persiapan ujian,CreateTransaction,Expense,Education,v04_education_04
+ikut pelatihan pemrograman,CreateTransaction,Expense,Education,v04_education_05
+bayar biaya sertifikasi profesi,CreateTransaction,Expense,Education,v04_education_06
+beli alat tulis untuk kelas,CreateTransaction,Expense,Education,v04_education_07
+daftar seminar pendidikan,CreateTransaction,Expense,Education,v04_education_08
+bayar biaya pendaftaran sekolah,CreateTransaction,Expense,Education,v04_education_09
+beli buku latihan soal,CreateTransaction,Expense,Education,v04_education_10
+bayar kelas daring desain,CreateTransaction,Expense,Education,v04_education_11
+ikut bimbingan belajar,CreateTransaction,Expense,Education,v04_education_12
+beli kamus bahasa indonesia,CreateTransaction,Expense,Education,v04_education_13
+bayar biaya praktikum kampus,CreateTransaction,Expense,Education,v04_education_14
+daftar lokakarya menulis,CreateTransaction,Expense,Education,v04_education_15
+beli buku referensi kuliah,CreateTransaction,Expense,Education,v04_education_16
+bayar kursus bahasa inggris,CreateTransaction,Expense,Education,v04_education_17
+main di arena permainan arcade,CreateTransaction,Expense,Entertainment,v04_entertainment_00
+beli tiket bioskop malam minggu,CreateTransaction,Expense,Entertainment,v04_entertainment_01
+bayar karaoke bareng teman,CreateTransaction,Expense,Entertainment,v04_entertainment_02
+langganan layanan film streaming,CreateTransaction,Expense,Entertainment,v04_entertainment_03
+beli tiket konser musik,CreateTransaction,Expense,Entertainment,v04_entertainment_04
+main boling di pusat hiburan,CreateTransaction,Expense,Entertainment,v04_entertainment_05
+bayar tiket taman rekreasi,CreateTransaction,Expense,Entertainment,v04_entertainment_06
+sewa konsol gim akhir pekan,CreateTransaction,Expense,Entertainment,v04_entertainment_07
+beli gim baru di toko digital,CreateTransaction,Expense,Entertainment,v04_entertainment_08
+pergi nonton pertunjukan komedi,CreateTransaction,Expense,Entertainment,v04_entertainment_09
+bayar tiket kebun binatang,CreateTransaction,Expense,Entertainment,v04_entertainment_10
+main biliar bersama teman,CreateTransaction,Expense,Entertainment,v04_entertainment_11
+beli tiket festival musik,CreateTransaction,Expense,Entertainment,v04_entertainment_12
+bayar wahana permainan air,CreateTransaction,Expense,Entertainment,v04_entertainment_13
+langganan platform hiburan,CreateTransaction,Expense,Entertainment,v04_entertainment_14
+nonton pertunjukan teater,CreateTransaction,Expense,Entertainment,v04_entertainment_15
+bayar tiket museum interaktif,CreateTransaction,Expense,Entertainment,v04_entertainment_16
+sewa film untuk ditonton,CreateTransaction,Expense,Entertainment,v04_entertainment_17
+tes darah di laboratorium,CreateTransaction,Expense,Health,v04_health_00
+bayar konsultasi dokter umum,CreateTransaction,Expense,Health,v04_health_01
+beli obat flu di apotek,CreateTransaction,Expense,Health,v04_health_02
+periksa gigi ke dokter,CreateTransaction,Expense,Health,v04_health_03
+bayar pemeriksaan mata,CreateTransaction,Expense,Health,v04_health_04
+beli vitamin di apotek,CreateTransaction,Expense,Health,v04_health_05
+cek kolesterol di klinik,CreateTransaction,Expense,Health,v04_health_06
+bayar vaksinasi di rumah sakit,CreateTransaction,Expense,Health,v04_health_07
+periksa kesehatan rutin,CreateTransaction,Expense,Health,v04_health_08
+bayar rontgen dada,CreateTransaction,Expense,Health,v04_health_09
+beli obat resep dokter,CreateTransaction,Expense,Health,v04_health_10
+cek gula darah di laboratorium,CreateTransaction,Expense,Health,v04_health_11
+bayar fisioterapi lutut,CreateTransaction,Expense,Health,v04_health_12
+periksa ke dokter kulit,CreateTransaction,Expense,Health,v04_health_13
+bayar biaya rawat jalan,CreateTransaction,Expense,Health,v04_health_14
+beli perban dan antiseptik,CreateTransaction,Expense,Health,v04_health_15
+periksa tekanan darah di klinik,CreateTransaction,Expense,Health,v04_health_16
+bayar tes kesehatan kerja,CreateTransaction,Expense,Health,v04_health_17
+bayar sewa kos bulanan,CreateTransaction,Expense,Housing,v04_housing_00
+bayar kontrakan rumah,CreateTransaction,Expense,Housing,v04_housing_01
+beli cat untuk dinding kamar,CreateTransaction,Expense,Housing,v04_housing_02
+bayar tukang perbaiki atap,CreateTransaction,Expense,Housing,v04_housing_03
+beli rak untuk kamar tidur,CreateTransaction,Expense,Housing,v04_housing_04
+bayar biaya renovasi dapur,CreateTransaction,Expense,Housing,v04_housing_05
+beli kasur baru untuk rumah,CreateTransaction,Expense,Housing,v04_housing_06
+bayar jasa bersih bersih rumah,CreateTransaction,Expense,Housing,v04_housing_07
+beli lampu untuk ruang tamu,CreateTransaction,Expense,Housing,v04_housing_08
+bayar tukang servis pintu,CreateTransaction,Expense,Housing,v04_housing_09
+beli tirai jendela kamar,CreateTransaction,Expense,Housing,v04_housing_10
+bayar perbaikan pipa bocor,CreateTransaction,Expense,Housing,v04_housing_11
+beli meja makan rumah,CreateTransaction,Expense,Housing,v04_housing_12
+bayar perbaikan plafon,CreateTransaction,Expense,Housing,v04_housing_13
+beli keran air baru,CreateTransaction,Expense,Housing,v04_housing_14
+bayar tukang pasang ubin,CreateTransaction,Expense,Housing,v04_housing_15
+beli lemari pakaian,CreateTransaction,Expense,Housing,v04_housing_16
+bayar jasa pindahan kos,CreateTransaction,Expense,Housing,v04_housing_17
+beli sepatu olahraga baru,CreateTransaction,Expense,Shopping,v04_shopping_00
+belanja kaos di toko pakaian,CreateTransaction,Expense,Shopping,v04_shopping_01
+beli tas ransel kerja,CreateTransaction,Expense,Shopping,v04_shopping_02
+pesan jaket lewat toko daring,CreateTransaction,Expense,Shopping,v04_shopping_03
+beli kabel pengisi daya,CreateTransaction,Expense,Shopping,v04_shopping_04
+beli pelindung layar ponsel,CreateTransaction,Expense,Shopping,v04_shopping_05
+belanja celana panjang,CreateTransaction,Expense,Shopping,v04_shopping_06
+beli aksesori komputer,CreateTransaction,Expense,Shopping,v04_shopping_07
+pesan mouse nirkabel,CreateTransaction,Expense,Shopping,v04_shopping_08
+beli topi dan ikat pinggang,CreateTransaction,Expense,Shopping,v04_shopping_09
+belanja sandal rumah,CreateTransaction,Expense,Shopping,v04_shopping_10
+beli casing hp baru,CreateTransaction,Expense,Shopping,v04_shopping_11
+beli dompet kulit,CreateTransaction,Expense,Shopping,v04_shopping_12
+pesan keyboard mekanik,CreateTransaction,Expense,Shopping,v04_shopping_13
+beli jam dinding,CreateTransaction,Expense,Shopping,v04_shopping_14
+belanja kemeja kantor,CreateTransaction,Expense,Shopping,v04_shopping_15
+beli payung lipat,CreateTransaction,Expense,Shopping,v04_shopping_16
+pesan botol minum baru,CreateTransaction,Expense,Shopping,v04_shopping_17
+terima pembayaran jasa desain logo,CreateTransaction,Income,Business,v04_business_00
+pelanggan bayar pesanan kue,CreateTransaction,Income,Business,v04_business_01
+dapat pemasukan dari jualan daring,CreateTransaction,Income,Business,v04_business_02
+terima hasil penjualan barang dagangan,CreateTransaction,Income,Business,v04_business_03
+klien membayar jasa pembuatan situs,CreateTransaction,Income,Business,v04_business_04
+uang masuk dari usaha katering,CreateTransaction,Income,Business,v04_business_05
+terima pembayaran proyek usaha,CreateTransaction,Income,Business,v04_business_06
+dapat omzet warung hari ini,CreateTransaction,Income,Business,v04_business_07
+pelanggan transfer untuk pesanan,CreateTransaction,Income,Business,v04_business_08
+hasil penjualan kopi masuk rekening,CreateTransaction,Income,Business,v04_business_09
+terima pembayaran jasa fotografi,CreateTransaction,Income,Business,v04_business_10
+pemasukan toko dari penjualan harian,CreateTransaction,Income,Business,v04_business_11
+dapat bayaran pesanan kerajinan,CreateTransaction,Income,Business,v04_business_12
+terima uang dari usaha laundry,CreateTransaction,Income,Business,v04_business_13
+hasil jualan makanan hari ini,CreateTransaction,Income,Business,v04_business_14
+klien melunasi invoice jasa,CreateTransaction,Income,Business,v04_business_15
+terima pendapatan dari toko kecil,CreateTransaction,Income,Business,v04_business_16
+dapat pemasukan dari usaha sampingan,CreateTransaction,Income,Business,v04_business_17
+dapat hadiah uang dari keluarga,CreateTransaction,Income,Other Income,v04_other_income_00
+terima uang saku dari orang tua,CreateTransaction,Income,Other Income,v04_other_income_01
+dapat cashback belanja,CreateTransaction,Income,Other Income,v04_other_income_02
+terima pengembalian dana pesanan,CreateTransaction,Income,Other Income,v04_other_income_03
+dapat uang angpao,CreateTransaction,Income,Other Income,v04_other_income_04
+terima hadiah lomba,CreateTransaction,Income,Other Income,v04_other_income_05
+uang masuk dari pengembalian pinjaman,CreateTransaction,Income,Other Income,v04_other_income_06
+dapat bonus hadiah undian,CreateTransaction,Income,Other Income,v04_other_income_07
+terima uang pemberian saudara,CreateTransaction,Income,Other Income,v04_other_income_08
+dapat pengembalian biaya perjalanan,CreateTransaction,Income,Other Income,v04_other_income_09
+terima dana hibah pribadi,CreateTransaction,Income,Other Income,v04_other_income_10
+dapat hadiah ulang tahun berupa uang,CreateTransaction,Income,Other Income,v04_other_income_11
+terima uang dari penjualan barang pribadi,CreateTransaction,Income,Other Income,v04_other_income_12
+dapat uang tip dari teman,CreateTransaction,Income,Other Income,v04_other_income_13
+terima penggantian uang talangan,CreateTransaction,Income,Other Income,v04_other_income_14
+dapat hadiah uang kompetisi,CreateTransaction,Income,Other Income,v04_other_income_15
+uang masuk dari pengembalian deposit,CreateTransaction,Income,Other Income,v04_other_income_16
+dapat transfer hadiah pernikahan,CreateTransaction,Income,Other Income,v04_other_income_17
+gaji bulanan sudah masuk rekening,CreateTransaction,Income,Salary,v04_salary_00
+terima upah kerja bulan ini,CreateTransaction,Income,Salary,v04_salary_01
+perusahaan transfer gaji pokok,CreateTransaction,Income,Salary,v04_salary_02
+dapat tunjangan makan dari kantor,CreateTransaction,Income,Salary,v04_salary_03
+terima pembayaran lembur kerja,CreateTransaction,Income,Salary,v04_salary_04
+gajian dari perusahaan hari ini,CreateTransaction,Income,Salary,v04_salary_05
+terima bonus kinerja kantor,CreateTransaction,Income,Salary,v04_salary_06
+dapat tunjangan transport karyawan,CreateTransaction,Income,Salary,v04_salary_07
+gaji november sudah cair,CreateTransaction,Income,Salary,v04_salary_08
+terima tunjangan hari raya kantor,CreateTransaction,Income,Salary,v04_salary_09
+perusahaan bayar insentif pegawai,CreateTransaction,Income,Salary,v04_salary_10
+dapat uang rapel gaji,CreateTransaction,Income,Salary,v04_salary_11
+terima pembayaran honor kerja tetap,CreateTransaction,Income,Salary,v04_salary_12
+gaji bersih masuk bank,CreateTransaction,Income,Salary,v04_salary_13
+dapat bonus tahunan perusahaan,CreateTransaction,Income,Salary,v04_salary_14
+terima tunjangan jabatan,CreateTransaction,Income,Salary,v04_salary_15
+perusahaan kirim gaji bulanan,CreateTransaction,Income,Salary,v04_salary_16
+dapat kompensasi lembur kantor,CreateTransaction,Income,Salary,v04_salary_17
+hai asisten keuangan,Other,,,v04_other_00
+lagi ngapain sekarang,Other,,,v04_other_01
+ceritakan lelucon lucu,Other,,,v04_other_02
+aku sedang belajar pemrograman,Other,,,v04_other_03
+selamat pagi semuanya,Other,,,v04_other_04
+apa kabar hari ini,Other,,,v04_other_05
+tolong jelaskan cara kerja aplikasi,Other,,,v04_other_06
+bisa bantu aku belajar python,Other,,,v04_other_07
+aku sedang lapar,Other,,,v04_other_08
+pengen makan nasi goreng nanti,Other,,,v04_other_09
+aku suka beli buku,Other,,,v04_other_10
+besok mungkin mau belanja,Other,,,v04_other_11
+cara masak nasi uduk,Other,,,v04_other_12
+aku belum bayar listrik,Other,,,v04_other_13
+ingatkan aku untuk beli obat,Other,,,v04_other_14
+berapa harga tiket bioskop sekarang,Other,,,v04_other_15
+aku penasaran soal tabungan,Other,,,v04_other_16
+makan siang enaknya apa,Other,,,v04_other_17
+apakah kamu bisa ngobrol,Other,,,v04_other_18
+terima kasih sudah membantu,Other,,,v04_other_19
+aku sedang di perjalanan,Other,,,v04_other_20
+aku mau tidur dulu,Other,,,v04_other_21
+bisa jelaskan istilah investasi,Other,,,v04_other_22
+uangku lagi menipis,Other,,,v04_other_23
+semoga besok gajian,Other,,,v04_other_24
+cara membuat anggaran keuangan,Other,,,v04_other_25
+aku kepikiran mau beli sepatu,Other,,,v04_other_26
+kenapa harga bensin naik,Other,,,v04_other_27
+semoga tidur nyenyak,Other,,,v04_other_28
+hari ini hujan deras,Other,,,v04_other_29
+aku belum jadi belanja,Other,,,v04_other_30
+jangan catat transaksi apa pun,Other,,,v04_other_31
+batalkan rencana belanja tadi,Other,,,v04_other_32
+cuma cerita bukan transaksi,Other,,,v04_other_33
+aku ingin menghemat pengeluaran,Other,,,v04_other_34
+boleh tanya tentang kesehatan,Other,,,v04_other_35
+berapa total pengeluaran bulan ini,SummaryQuery,,,v04_summaryquery_00
+tampilkan ringkasan pemasukan minggu ini,SummaryQuery,,,v04_summaryquery_01
+total uang masuk dan keluar hari ini,SummaryQuery,,,v04_summaryquery_02
+berapa pengeluaran makanan bulan lalu,SummaryQuery,,,v04_summaryquery_03
+lihat laporan keuangan oktober,SummaryQuery,,,v04_summaryquery_04
+berapa pemasukan sepanjang tahun,SummaryQuery,,,v04_summaryquery_05
+rekap transaksi kemarin,SummaryQuery,,,v04_summaryquery_06
+berapa total belanja pekan ini,SummaryQuery,,,v04_summaryquery_07
+tampilkan ringkasan keuangan bulanan,SummaryQuery,,,v04_summaryquery_08
+uang keluar paling banyak untuk apa,SummaryQuery,,,v04_summaryquery_09
+lihat jumlah transaksi minggu lalu,SummaryQuery,,,v04_summaryquery_10
+bandingkan pemasukan dan pengeluaran,SummaryQuery,,,v04_summaryquery_11
+berapa total pengeluaran hari ini,SummaryQuery,,,v04_summaryquery_12
+tampilkan rekap transaksi bulan berjalan,SummaryQuery,,,v04_summaryquery_13
+berapa total pendapatan bulan lalu,SummaryQuery,,,v04_summaryquery_14
+lihat laporan pemasukan dan biaya,SummaryQuery,,,v04_summaryquery_15
+rekap pengeluaran tiga bulan terakhir,SummaryQuery,,,v04_summaryquery_16
+berapa uang yang sudah dibelanjakan,SummaryQuery,,,v04_summaryquery_17
+tampilkan pengeluaran berdasarkan kategori,SummaryQuery,,,v04_summaryquery_18
+lihat ringkasan transaksi hari ini,SummaryQuery,,,v04_summaryquery_19
+berapa sisa anggaran makan bulan ini,BudgetQuery,,,v04_budgetquery_00
+cek batas belanja transport,BudgetQuery,,,v04_budgetquery_01
+sisa budget hiburan berapa,BudgetQuery,,,v04_budgetquery_02
+apakah anggaran belanja hampir habis,BudgetQuery,,,v04_budgetquery_03
+lihat pemakaian anggaran kesehatan,BudgetQuery,,,v04_budgetquery_04
+berapa persen budget makanan terpakai,BudgetQuery,,,v04_budgetquery_05
+cek anggaran bulanan listrik,BudgetQuery,,,v04_budgetquery_06
+apakah pengeluaran melewati batas anggaran,BudgetQuery,,,v04_budgetquery_07
+tampilkan sisa dana belanja,BudgetQuery,,,v04_budgetquery_08
+berapa jatah belanja bulan ini,BudgetQuery,,,v04_budgetquery_09
+lihat batas anggaran pendidikan,BudgetQuery,,,v04_budgetquery_10
+sisa anggaran transportasi sekarang,BudgetQuery,,,v04_budgetquery_11
+berapa anggaran yang belum terpakai,BudgetQuery,,,v04_budgetquery_12
+cek pemakaian budget per kategori,BudgetQuery,,,v04_budgetquery_13
+apakah budget kos masih cukup,BudgetQuery,,,v04_budgetquery_14
+lihat target anggaran bulanan,BudgetQuery,,,v04_budgetquery_15
+berapa sisa budget belanja daring,BudgetQuery,,,v04_budgetquery_16
+tampilkan status anggaran hiburan,BudgetQuery,,,v04_budgetquery_17
+cek batas biaya kesehatan,BudgetQuery,,,v04_budgetquery_18
+berapa dana tersedia dalam anggaran,BudgetQuery,,,v04_budgetquery_19

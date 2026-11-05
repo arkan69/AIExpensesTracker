@@ -1,0 +1,5 @@
+task,training,train_rows,validation_rows,accuracy,macro_f1
+intent,baseline,282,93,0.957,0.8588
+intent,augmented,556,93,0.9677,0.9174
+category,baseline,240,78,0.5897,0.523
+category,augmented,438,78,0.9103,0.9103

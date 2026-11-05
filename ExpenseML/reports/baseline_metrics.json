@@ -1,0 +1,327 @@
+{
+  "note": "Synthetic held-out evaluation only; independently authored test set still required.",
+  "random_state": 42,
+  "test_size": 0.2,
+  "intent": {
+    "model": "intent",
+    "test_examples": 93,
+    "accuracy": 0.956989247311828,
+    "macro_f1": 0.8588293650793651,
+    "labels": [
+      "BudgetQuery",
+      "CreateTransaction",
+      "Other",
+      "SummaryQuery"
+    ],
+    "confusion_matrix": [
+      [
+        5,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        78,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        2,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        4
+      ]
+    ],
+    "classification_report": {
+      "BudgetQuery": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 5.0
+      },
+      "CreateTransaction": {
+        "precision": 0.9512195121951219,
+        "recall": 1.0,
+        "f1-score": 0.975,
+        "support": 78.0
+      },
+      "Other": {
+        "precision": 1.0,
+        "recall": 0.4,
+        "f1-score": 0.5714285714285714,
+        "support": 5.0
+      },
+      "SummaryQuery": {
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1-score": 0.8888888888888888,
+        "support": 5.0
+      },
+      "accuracy": 0.956989247311828,
+      "macro avg": {
+        "precision": 0.9878048780487805,
+        "recall": 0.8,
+        "f1-score": 0.8588293650793651,
+        "support": 93.0
+      },
+      "weighted avg": {
+        "precision": 0.9590873328088119,
+        "recall": 0.956989247311828,
+        "f1-score": 0.9500170677590032,
+        "support": 93.0
+      }
+    }
+  },
+  "category": {
+    "model": "category",
+    "test_examples": 78,
+    "accuracy": 0.5384615384615384,
+    "macro_f1": 0.47516518569150146,
+    "labels": [
+      "Bills",
+      "Business",
+      "Education",
+      "Entertainment",
+      "Food",
+      "Health",
+      "Housing",
+      "Other Income",
+      "Salary",
+      "Shopping",
+      "Transport"
+    ],
+    "confusion_matrix": [
+      [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        3
+      ],
+      [
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        6,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        3,
+        0,
+        0,
+        0,
+        1,
+        4,
+        0
+      ],
+      [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        3,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        3,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6
+      ]
+    ],
+    "classification_report": {
+      "Bills": {
+        "precision": 0.3333333333333333,
+        "recall": 0.5,
+        "f1-score": 0.4,
+        "support": 6.0
+      },
+      "Business": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 6.0
+      },
+      "Education": {
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1-score": 0.8,
+        "support": 6.0
+      },
+      "Entertainment": {
+        "precision": 0.8571428571428571,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.75,
+        "support": 9.0
+      },
+      "Food": {
+        "precision": 0.5,
+        "recall": 0.3333333333333333,
+        "f1-score": 0.4,
+        "support": 9.0
+      },
+      "Health": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 6.0
+      },
+      "Housing": {
+        "precision": 0.6,
+        "recall": 0.3333333333333333,
+        "f1-score": 0.42857142857142855,
+        "support": 9.0
+      },
+      "Other Income": {
+        "precision": 0.5,
+        "recall": 0.3333333333333333,
+        "f1-score": 0.4,
+        "support": 9.0
+      },
+      "Salary": {
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1-score": 0.6666666666666666,
+        "support": 6.0
+      },
+      "Shopping": {
+        "precision": 0.46153846153846156,
+        "recall": 1.0,
+        "f1-score": 0.631578947368421,
+        "support": 6.0
+      },
+      "Transport": {
+        "precision": 0.6,
+        "recall": 1.0,
+        "f1-score": 0.75,
+        "support": 6.0
+      },
+      "accuracy": 0.5384615384615384,
+      "macro avg": {
+        "precision": 0.45624375624375624,
+        "recall": 0.5606060606060606,
+        "f1-score": 0.47516518569150146,
+        "support": 78.0
+      },
+      "weighted avg": {
+        "precision": 0.4805579036348267,
+        "recall": 0.5384615384615384,
+        "f1-score": 0.4781617505301716,
+        "support": 78.0
+      }
+    }
+  }
+}

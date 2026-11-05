@@ -1,0 +1,159 @@
+task,configuration,text,actual,predicted
+intent,char + LogisticRegression,"catat pemasukan usaha kecil 1,5jt",CreateTransaction,SummaryQuery
+intent,char + LogisticRegression,kemarin pemasukan usaha kecil 15rb,CreateTransaction,SummaryQuery
+intent,char + LogisticRegression,aku pemasukan usaha kecil 35.000,CreateTransaction,SummaryQuery
+intent,char + LogisticRegression,cek total pendapatan,SummaryQuery,CreateTransaction
+intent,char + LogisticRegression,cek anggaran belanja,BudgetQuery,CreateTransaction
+intent,char + LogisticRegression,halo bot,Other,CreateTransaction
+intent,char + LogisticRegression,hari ini hari apa,Other,CreateTransaction
+intent,char + LogisticRegression,hai semuanya,Other,CreateTransaction
+intent,char + LinearSVC,cek total pendapatan,SummaryQuery,CreateTransaction
+intent,char + LinearSVC,cek anggaran belanja,BudgetQuery,CreateTransaction
+intent,char + LinearSVC,halo bot,Other,CreateTransaction
+intent,char + LinearSVC,buka aplikasi,Other,CreateTransaction
+intent,char + LinearSVC,hari ini hari apa,Other,CreateTransaction
+intent,char + LinearSVC,hai semuanya,Other,CreateTransaction
+intent,word+char + LogisticRegression,cek total pendapatan,SummaryQuery,CreateTransaction
+intent,word+char + LogisticRegression,buka aplikasi,Other,CreateTransaction
+intent,word+char + LogisticRegression,hari ini hari apa,Other,CreateTransaction
+intent,word+char + LogisticRegression,hai semuanya,Other,CreateTransaction
+intent,word+char + LinearSVC,cek total pendapatan,SummaryQuery,CreateTransaction
+intent,word+char + LinearSVC,halo bot,Other,CreateTransaction
+intent,word+char + LinearSVC,buka aplikasi,Other,CreateTransaction
+intent,word+char + LinearSVC,hari ini hari apa,Other,CreateTransaction
+intent,word+char + LinearSVC,hai semuanya,Other,CreateTransaction
+category,char + LogisticRegression,semalam bayar parkir 200rb,Transport,Bills
+category,char + LogisticRegression,minggu lalu bayar parkir 1 juta,Transport,Bills
+category,char + LogisticRegression,barusan bayar parkir 8 juta,Transport,Bills
+category,char + LogisticRegression,kemarin isi saldo e toll 35.000,Transport,Entertainment
+category,char + LogisticRegression,semalam bayar taksi 100k,Transport,Bills
+category,char + LogisticRegression,minggu lalu bayar taksi 250.000,Transport,Bills
+category,char + LogisticRegression,"barusan bayar taksi 1,5jt",Transport,Bills
+category,char + LogisticRegression,beli kaos 200rb,Shopping,Housing
+category,char + LogisticRegression,karaoke bareng teman 1 juta,Entertainment,Other Income
+category,char + LogisticRegression,pagi ini karaoke bareng teman 8 juta,Entertainment,Housing
+category,char + LogisticRegression,tolong catat karaoke bareng teman 25k,Entertainment,Other Income
+category,char + LogisticRegression,beli tiket wisata 250.000,Entertainment,Transport
+category,char + LogisticRegression,"pagi ini beli tiket wisata 1,5jt",Entertainment,Transport
+category,char + LogisticRegression,tolong catat beli tiket wisata 15rb,Entertainment,Transport
+category,char + LogisticRegression,semalam periksa mata 20 ribu,Health,Entertainment
+category,char + LogisticRegression,minggu lalu periksa mata 50rb,Health,Entertainment
+category,char + LogisticRegression,barusan periksa mata 150 ribu,Health,Salary
+category,char + LogisticRegression,minggu lalu bayar tukang cat 75 ribu,Housing,Bills
+category,char + LogisticRegression,hari ini bayar kursus online 20 ribu,Education,Transport
+category,char + LogisticRegression,gue bayar kursus online 50rb,Education,Transport
+category,char + LogisticRegression,tadi bayar kursus online 150 ribu,Education,Transport
+category,char + LogisticRegression,semalam bayar seminar 50rb,Education,Bills
+category,char + LogisticRegression,minggu lalu bayar seminar 150 ribu,Education,Bills
+category,char + LogisticRegression,barusan bayar seminar 500rb,Education,Bills
+category,char + LogisticRegression,catat bayar workshop 1 juta,Education,Bills
+category,char + LogisticRegression,kemarin bayar workshop 8 juta,Education,Bills
+category,char + LogisticRegression,aku bayar workshop 25k,Education,Bills
+category,char + LogisticRegression,hari ini gajian 2 juta,Salary,Entertainment
+category,char + LogisticRegression,bonus tahunan masuk 25k,Salary,Food
+category,char + LogisticRegression,hari ini terima fee desain 2 juta,Business,Salary
+category,char + LogisticRegression,gue terima fee desain 20 ribu,Business,Salary
+category,char + LogisticRegression,tadi terima fee desain 50rb,Business,Salary
+category,char + LogisticRegression,"catat pemasukan usaha kecil 1,5jt",Business,Housing
+category,char + LogisticRegression,kemarin pemasukan usaha kecil 15rb,Business,Housing
+category,char + LogisticRegression,aku pemasukan usaha kecil 35.000,Business,Housing
+category,char + LinearSVC,semalam bayar parkir 200rb,Transport,Bills
+category,char + LinearSVC,minggu lalu bayar parkir 1 juta,Transport,Bills
+category,char + LinearSVC,barusan bayar parkir 8 juta,Transport,Bills
+category,char + LinearSVC,semalam bayar taksi 100k,Transport,Bills
+category,char + LinearSVC,minggu lalu bayar taksi 250.000,Transport,Bills
+category,char + LinearSVC,"barusan bayar taksi 1,5jt",Transport,Bills
+category,char + LinearSVC,beli kaos 200rb,Shopping,Housing
+category,char + LinearSVC,pagi ini beli kaos 1 juta,Shopping,Housing
+category,char + LinearSVC,tolong catat beli kaos 8 juta,Shopping,Housing
+category,char + LinearSVC,karaoke bareng teman 1 juta,Entertainment,Other Income
+category,char + LinearSVC,pagi ini karaoke bareng teman 8 juta,Entertainment,Other Income
+category,char + LinearSVC,tolong catat karaoke bareng teman 25k,Entertainment,Other Income
+category,char + LinearSVC,beli tiket wisata 250.000,Entertainment,Transport
+category,char + LinearSVC,"pagi ini beli tiket wisata 1,5jt",Entertainment,Transport
+category,char + LinearSVC,tolong catat beli tiket wisata 15rb,Entertainment,Transport
+category,char + LinearSVC,semalam periksa mata 20 ribu,Health,Entertainment
+category,char + LinearSVC,minggu lalu periksa mata 50rb,Health,Entertainment
+category,char + LinearSVC,barusan periksa mata 150 ribu,Health,Salary
+category,char + LinearSVC,hari ini bayar kursus online 20 ribu,Education,Transport
+category,char + LinearSVC,gue bayar kursus online 50rb,Education,Transport
+category,char + LinearSVC,tadi bayar kursus online 150 ribu,Education,Transport
+category,char + LinearSVC,semalam bayar seminar 50rb,Education,Bills
+category,char + LinearSVC,minggu lalu bayar seminar 150 ribu,Education,Bills
+category,char + LinearSVC,barusan bayar seminar 500rb,Education,Bills
+category,char + LinearSVC,catat bayar workshop 1 juta,Education,Bills
+category,char + LinearSVC,kemarin bayar workshop 8 juta,Education,Bills
+category,char + LinearSVC,aku bayar workshop 25k,Education,Bills
+category,char + LinearSVC,hari ini gajian 2 juta,Salary,Entertainment
+category,char + LinearSVC,bonus tahunan masuk 25k,Salary,Food
+category,char + LinearSVC,hari ini terima fee desain 2 juta,Business,Salary
+category,char + LinearSVC,gue terima fee desain 20 ribu,Business,Salary
+category,char + LinearSVC,tadi terima fee desain 50rb,Business,Salary
+category,char + LinearSVC,"catat pemasukan usaha kecil 1,5jt",Business,Housing
+category,char + LinearSVC,kemarin pemasukan usaha kecil 15rb,Business,Housing
+category,char + LinearSVC,aku pemasukan usaha kecil 35.000,Business,Housing
+category,word+char + LogisticRegression,semalam bayar parkir 200rb,Transport,Bills
+category,word+char + LogisticRegression,minggu lalu bayar parkir 1 juta,Transport,Bills
+category,word+char + LogisticRegression,barusan bayar parkir 8 juta,Transport,Bills
+category,word+char + LogisticRegression,semalam bayar taksi 100k,Transport,Bills
+category,word+char + LogisticRegression,minggu lalu bayar taksi 250.000,Transport,Bills
+category,word+char + LogisticRegression,"barusan bayar taksi 1,5jt",Transport,Bills
+category,word+char + LogisticRegression,karaoke bareng teman 1 juta,Entertainment,Other Income
+category,word+char + LogisticRegression,pagi ini karaoke bareng teman 8 juta,Entertainment,Other Income
+category,word+char + LogisticRegression,tolong catat karaoke bareng teman 25k,Entertainment,Other Income
+category,word+char + LogisticRegression,beli tiket wisata 250.000,Entertainment,Transport
+category,word+char + LogisticRegression,"pagi ini beli tiket wisata 1,5jt",Entertainment,Transport
+category,word+char + LogisticRegression,tolong catat beli tiket wisata 15rb,Entertainment,Transport
+category,word+char + LogisticRegression,semalam periksa mata 20 ribu,Health,Entertainment
+category,word+char + LogisticRegression,minggu lalu periksa mata 50rb,Health,Entertainment
+category,word+char + LogisticRegression,barusan periksa mata 150 ribu,Health,Transport
+category,word+char + LogisticRegression,minggu lalu bayar tukang cat 75 ribu,Housing,Bills
+category,word+char + LogisticRegression,hari ini bayar kursus online 20 ribu,Education,Transport
+category,word+char + LogisticRegression,gue bayar kursus online 50rb,Education,Transport
+category,word+char + LogisticRegression,tadi bayar kursus online 150 ribu,Education,Transport
+category,word+char + LogisticRegression,semalam bayar seminar 50rb,Education,Bills
+category,word+char + LogisticRegression,minggu lalu bayar seminar 150 ribu,Education,Bills
+category,word+char + LogisticRegression,barusan bayar seminar 500rb,Education,Bills
+category,word+char + LogisticRegression,catat bayar workshop 1 juta,Education,Bills
+category,word+char + LogisticRegression,kemarin bayar workshop 8 juta,Education,Bills
+category,word+char + LogisticRegression,aku bayar workshop 25k,Education,Bills
+category,word+char + LogisticRegression,hari ini gajian 2 juta,Salary,Entertainment
+category,word+char + LogisticRegression,gue gajian 20 ribu,Salary,Entertainment
+category,word+char + LogisticRegression,hari ini terima fee desain 2 juta,Business,Salary
+category,word+char + LogisticRegression,gue terima fee desain 20 ribu,Business,Salary
+category,word+char + LogisticRegression,tadi terima fee desain 50rb,Business,Salary
+category,word+char + LogisticRegression,"catat pemasukan usaha kecil 1,5jt",Business,Housing
+category,word+char + LogisticRegression,kemarin pemasukan usaha kecil 15rb,Business,Housing
+category,word+char + LogisticRegression,aku pemasukan usaha kecil 35.000,Business,Housing
+category,word+char + LinearSVC,semalam bayar parkir 200rb,Transport,Bills
+category,word+char + LinearSVC,minggu lalu bayar parkir 1 juta,Transport,Bills
+category,word+char + LinearSVC,barusan bayar parkir 8 juta,Transport,Bills
+category,word+char + LinearSVC,semalam bayar taksi 100k,Transport,Bills
+category,word+char + LinearSVC,minggu lalu bayar taksi 250.000,Transport,Bills
+category,word+char + LinearSVC,"barusan bayar taksi 1,5jt",Transport,Bills
+category,word+char + LinearSVC,beli kaos 200rb,Shopping,Housing
+category,word+char + LinearSVC,karaoke bareng teman 1 juta,Entertainment,Other Income
+category,word+char + LinearSVC,pagi ini karaoke bareng teman 8 juta,Entertainment,Other Income
+category,word+char + LinearSVC,tolong catat karaoke bareng teman 25k,Entertainment,Other Income
+category,word+char + LinearSVC,beli tiket wisata 250.000,Entertainment,Transport
+category,word+char + LinearSVC,"pagi ini beli tiket wisata 1,5jt",Entertainment,Transport
+category,word+char + LinearSVC,tolong catat beli tiket wisata 15rb,Entertainment,Transport
+category,word+char + LinearSVC,semalam periksa mata 20 ribu,Health,Entertainment
+category,word+char + LinearSVC,minggu lalu periksa mata 50rb,Health,Entertainment
+category,word+char + LinearSVC,barusan periksa mata 150 ribu,Health,Salary
+category,word+char + LinearSVC,hari ini bayar kursus online 20 ribu,Education,Transport
+category,word+char + LinearSVC,gue bayar kursus online 50rb,Education,Transport
+category,word+char + LinearSVC,tadi bayar kursus online 150 ribu,Education,Transport
+category,word+char + LinearSVC,semalam bayar seminar 50rb,Education,Bills
+category,word+char + LinearSVC,minggu lalu bayar seminar 150 ribu,Education,Bills
+category,word+char + LinearSVC,barusan bayar seminar 500rb,Education,Bills
+category,word+char + LinearSVC,catat bayar workshop 1 juta,Education,Bills
+category,word+char + LinearSVC,kemarin bayar workshop 8 juta,Education,Bills
+category,word+char + LinearSVC,aku bayar workshop 25k,Education,Bills
+category,word+char + LinearSVC,hari ini gajian 2 juta,Salary,Entertainment
+category,word+char + LinearSVC,hari ini terima fee desain 2 juta,Business,Salary
+category,word+char + LinearSVC,gue terima fee desain 20 ribu,Business,Salary
+category,word+char + LinearSVC,tadi terima fee desain 50rb,Business,Salary
+category,word+char + LinearSVC,"catat pemasukan usaha kecil 1,5jt",Business,Housing
+category,word+char + LinearSVC,kemarin pemasukan usaha kecil 15rb,Business,Housing
+category,word+char + LinearSVC,aku pemasukan usaha kecil 35.000,Business,Housing

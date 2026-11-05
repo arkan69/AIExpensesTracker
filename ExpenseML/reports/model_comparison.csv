@@ -1,0 +1,9 @@
+task,configuration,accuracy,macro_f1,fit_examples,validation_examples
+intent,char + LogisticRegression,0.914,0.7691,282,93
+intent,char + LinearSVC,0.9355,0.7685,282,93
+intent,word+char + LogisticRegression,0.957,0.8588,282,93
+intent,word+char + LinearSVC,0.9462,0.7978,282,93
+category,char + LogisticRegression,0.5513,0.4935,240,78
+category,char + LinearSVC,0.5513,0.49,240,78
+category,word+char + LogisticRegression,0.5769,0.5194,240,78
+category,word+char + LinearSVC,0.5897,0.523,240,78

@@ -1,0 +1,12 @@
+,Bills,Business,Education,Entertainment,Food,Health,Housing,Other Income,Salary,Shopping,Transport
+Bills,3,0,0,0,0,0,2,0,0,0,1
+Business,0,0,0,0,0,1,0,0,2,0,3
+Education,0,0,6,0,0,0,0,0,0,0,0
+Entertainment,0,0,0,6,3,0,0,0,0,0,0
+Food,0,0,0,1,3,0,0,0,1,4,0
+Health,3,0,0,0,0,0,0,3,0,0,0
+Housing,3,0,3,0,0,0,3,0,0,0,0
+Other Income,0,0,0,0,0,0,0,3,3,3,0
+Salary,0,0,0,0,0,0,0,0,6,0,0
+Shopping,0,0,0,0,0,0,0,0,0,6,0
+Transport,0,0,0,0,0,0,0,0,0,0,6
