@@ -4,7 +4,14 @@ A personal expense tracking and Indonesian-language machine learning project bui
 
 The project provides multi-user expense tracking, shared categories, monthly budgets, financial summaries, and automatic budget usage/status calculation.
 
-An **Indonesian-language intent and transaction-category classifier (ExpenseML v0.6)** is available as an interactive Python prototype. Amount/date extraction, integration with the .NET API, and chatbot integrations such as **Telegram** (and potentially **WhatsApp**) are planned.
+An **Indonesian-language ML prototype (ExpenseML v0.7)** provides intent/category classification using v0.6 trained models, plus amount and date extraction. Integration with the .NET API and chatbot platforms such as **Telegram** (and potentially **WhatsApp**) is planned. Transactions are never saved by the ML prototype.
+
+## Subproject Documentation
+
+- **Expense API:** [Backend setup, architecture, and API details](AIExpensesTracker/README.md)
+- **ExpenseML:** [Model training, inference, parsing, and tests](ExpenseML/README.md)
+
+**Latest checkpoint:** ExpenseML v0.7 was committed as `597e1f0` on `development`. The latest completed regression run passed 8 test methods covering 33 scenarios.
 
 ## Features
 
@@ -119,7 +126,8 @@ AIExpensesTracker/                   # Repository root
 │   ├── Repositories/
 │   ├── Services/
 │   ├── Program.cs
-│   └── ExpenseApi.csproj
+│   ├── ExpenseApi.csproj
+│   └── README.md
 ├── ExpenseML/                       # Indonesian ML prototype
 │   ├── data/                        # Training, expansion and challenge datasets
 │   ├── models/                      # Saved joblib classifiers and metadata
@@ -131,8 +139,13 @@ AIExpensesTracker/                   # Repository root
 │   │   ├── expand_dataset.py
 │   │   ├── challenge_test.py
 │   │   ├── export_models.py
-│   │   └── predict.py
-│   └── requirements.txt
+│   │   ├── predict.py
+│   │   ├── amount_parser.py
+│   │   ├── date_parser.py
+│   │   └── transaction_parser.py
+│   ├── tests/                       # Parser and model integration regression tests
+│   ├── requirements.txt
+│   └── README.md
 ├── ExpenseProject.slnx
 └── README.md
 ```
@@ -280,7 +293,7 @@ dotnet watch
 
 Open the Swagger UI using the localhost URL displayed by ASP.NET Core.
 
-## ExpenseML — Indonesian ML Prototype (v0.6)
+## ExpenseML — Indonesian ML Prototype (v0.7)
 
 ExpenseML currently runs **locally in Python**, independently of the .NET API. It uses supervised text classification to predict:
 
@@ -288,7 +301,27 @@ ExpenseML currently runs **locally in Python**, independently of the .NET API. I
 - **Transaction category:** one of 11 categories (8 expense categories and 3 income categories), for transaction-intent messages.
 - **Transaction type:** `Income` or `Expense`, derived from the predicted category taxonomy.
 
-The initial version focuses on **Bahasa Indonesia**, including common informal transaction expressions and abbreviations. Full English-language support is not a v1 goal.
+The prototype focuses on **Bahasa Indonesia**, including common informal transaction expressions and abbreviations. Full English-language support is not a v1 goal.
+
+### v0.7 Amount and Date Extraction
+
+- Parses Indonesian monetary expressions such as `15000`, `25rb`, `1,5jt`, and `Rp150000`.
+- Parses explicit dates such as `5 November 2026` and relative dates such as `hari ini` and `kemarin`.
+- Returns review issues for missing or multiple amounts, missing or ambiguous dates, and invalid dates.
+- Requires confirmation for every proposed transaction. A missing date is **not** automatically replaced with today.
+- Does not call the Expense API, write to SQL Server, or save transactions.
+
+The v0.7 extraction layer uses the existing v0.6 intent and category model artifacts; no model retraining was performed for this milestone.
+
+### Regression Tests
+
+From `ExpenseML/`, run:
+
+```bash
+python -m unittest discover -s tests -v
+```
+
+The latest recorded run passed **8 unittest methods covering 33 scenarios**. These tests cover amount/date parsing and prediction integration; they do not establish production accuracy.
 
 ### ML Approach
 
@@ -336,13 +369,13 @@ berapa pengeluaran bulan ini?
 belum jadi beli tiket ya
 ```
 
-The prototype reports intent, category/type where applicable, and uncertainty or review status. **It does not extract the final amount/date fields, call the Expense API, or save transactions.** Every suggested transaction requires confirmation; suspicious or ambiguous language can be flagged for review. SVM decision margins are **not probabilities**, and displayed intent scores are not externally calibrated.
+The prototype reports intent, category/type where applicable, extracted amount/date, and uncertainty or review status. **It does not call the Expense API or save transactions.** Every suggested transaction requires confirmation; suspicious or ambiguous language can be flagged for review. SVM decision margins are **not probabilities**, and displayed intent scores are not externally calibrated.
 
 To inspect or reproduce experiments, see `src/train.py`, `src/evaluate.py`, `src/compare_models.py`, `src/expand_dataset.py`, and `src/challenge_test.py`. Evaluation outputs are under `reports/`.
 
 ## Planned AI & Chatbot Integration
 
-The next development phases will add amount/date parsing, API integration, and then chatbot integration. The following diagram is a **planned architecture**, not a currently deployed flow.
+Amount/date extraction is now available in the local v0.7 prototype. Future phases will add API integration and then chatbot integration. The following diagram is a **planned architecture**, not a currently deployed flow.
 
 The planned architecture is:
 
@@ -432,12 +465,14 @@ After a transaction is recorded, the bot is planned to return relevant informati
 - [x] Intent and category classifiers (ExpenseML v0.6)
 - [x] Synthetic challenge evaluation and error analysis
 - [x] Interactive local ML prediction prototype
-- [ ] Indonesian amount and date extraction (ExpenseML v0.7)
+- [x] Indonesian amount and date extraction (ExpenseML v0.7)
+- [x] v0.7 regression tests (8 methods, 33 scenarios in latest run)
+- [ ] ExpenseML v0.8: classification errors, numeric ambiguity, and realistic Indonesian phrasing
 - [ ] Connect ML inference to the .NET API
 - [ ] Messaging account to user mapping
 - [ ] Telegram bot integration
 - [ ] Bot commands
-- [ ] Complete natural-language transaction parser (including amount/date)
+- [ ] Complete natural-language transaction parser (beyond v0.7 amount/date extraction)
 - [ ] End-to-end AI integration with the API and bot
 - [ ] Transaction confirmation flow
 - [ ] Telegram summary and budget responses
@@ -459,7 +494,7 @@ OpenAI:ApiKey
 
 must never be committed to source control.
 
-Authentication and authorization will be implemented in a later development phase.
+Authentication and authorization will be implemented in a later development phase. The current multi-user data model is not a substitute for authenticated access controls.
 
 ## Purpose
 
