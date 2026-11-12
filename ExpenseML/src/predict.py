@@ -3,6 +3,7 @@ Run from ExpenseML: python src/predict.py
 """
 from __future__ import annotations
 
+import os
 import json
 import re
 import sys
@@ -19,7 +20,7 @@ if str(ROOT) not in sys.path:
 from src.transaction_parser import parse_transaction
 
 MODELS = ROOT / 'models'
-VERSION = 'v0.6'
+VERSION = os.environ.get('EXPENSEML_MODEL_VERSION', 'v0.6')
 
 # Conservative safety guard for common negation, cancellation, and hypothetical language.
 # It is NOT a comprehensive Indonesian language parser.

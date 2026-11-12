@@ -1,0 +1,53 @@
+{
+  "version": "v0.8",
+  "created_utc": "2026-11-12T03:03:41.738414+00:00",
+  "language": "id",
+  "training_rows": 661,
+  "transaction_rows": 528,
+  "training_sources": [
+    "reports/train_split.csv",
+    "data/indonesian_expansion.csv",
+    "data/indonesian_expansion_v08_base.csv"
+  ],
+  "training_sha256": {
+    "reports/train_split.csv": "21d4f0a12d768584b0700365ba654c38be880dfef79c0a88880f8148fe1b060a",
+    "data/indonesian_expansion.csv": "f321912a0d55f9d660499da3f1ea871d85c9553beccc4467eeb94d1a98b18b20",
+    "data/indonesian_expansion_v08_base.csv": "208624c704d3b267d685ffda55051d7f72c740312438f4e6892ee5dbcc98fa30"
+  },
+  "intent_classes": [
+    "BudgetQuery",
+    "CreateTransaction",
+    "Other",
+    "SummaryQuery"
+  ],
+  "category_classes": [
+    "Bills",
+    "Business",
+    "Education",
+    "Entertainment",
+    "Food",
+    "Health",
+    "Housing",
+    "Other Income",
+    "Salary",
+    "Shopping",
+    "Transport"
+  ],
+  "category_type": {
+    "Bills": "Expense",
+    "Business": "Income",
+    "Education": "Expense",
+    "Entertainment": "Expense",
+    "Food": "Expense",
+    "Health": "Expense",
+    "Housing": "Expense",
+    "Other Income": "Income",
+    "Salary": "Income",
+    "Shopping": "Expense",
+    "Transport": "Expense"
+  },
+  "intent_score": "predict_proba; not externally calibrated",
+  "category_score": "LinearSVC decision_function; not probability",
+  "safety": "Prototype only; explicit confirmation required",
+  "evaluation": "Not yet evaluated; compare against v0.6 using unchanged challenge data"
+}

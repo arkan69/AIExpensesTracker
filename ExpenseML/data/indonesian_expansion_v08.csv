@@ -1,0 +1,25 @@
+text,intent,type,category,scenario_group
+beli kopi susu 20rb,CreateTransaction,Expense,Food,v08_coffee_01
+ngopi di warung 15rb,CreateTransaction,Expense,Food,v08_coffee_02
+beli es kopi susu 25rb,CreateTransaction,Expense,Food,v08_coffee_03
+bayar kopi americano 30rb,CreateTransaction,Expense,Food,v08_coffee_04
+beli kopi hitam 10rb,CreateTransaction,Expense,Food,v08_coffee_05
+jajan kopi dan donat 35rb,CreateTransaction,Expense,Food,v08_coffee_06
+beli teh tarik 18rb,CreateTransaction,Expense,Food,v08_drinks_01
+beli jus alpukat 20rb,CreateTransaction,Expense,Food,v08_drinks_02
+beli boba 25rb,CreateTransaction,Expense,Food,v08_drinks_03
+beli kemeja 150rb,CreateTransaction,Expense,Shopping,v08_shopping_01
+beli sepatu 350rb,CreateTransaction,Expense,Shopping,v08_shopping_02
+beli tas kerja 200rb,CreateTransaction,Expense,Shopping,v08_shopping_03
+dapet refund belanja online 75rb,CreateTransaction,Income,Other Income,v08_refund_01
+uang refund hotel masuk rekening 250rb,CreateTransaction,Income,Other Income,v08_refund_02
+refund pembelian barang diterima 120rb,CreateTransaction,Income,Other Income,v08_refund_03
+dana refund tiket konser cair 180rb,CreateTransaction,Income,Other Income,v08_refund_04
+dapet pengembalian ongkir 15rb,CreateTransaction,Income,Other Income,v08_refund_05
+uang balik dari pembatalan pesanan 90rb,CreateTransaction,Income,Other Income,v08_refund_06
+adik ngasih uang 50rb,CreateTransaction,Income,Other Income,v08_allowance_01
+dikasih uang jajan sama ibu 100rb,CreateTransaction,Income,Other Income,v08_allowance_02
+bokap transfer uang saku 300rb,CreateTransaction,Income,Other Income,v08_allowance_03
+kakak kasih uang tambahan 75rb,CreateTransaction,Income,Other Income,v08_allowance_04
+dapet duit jajan dari nenek 200rb,CreateTransaction,Income,Other Income,v08_allowance_05
+temen balikin uang pinjaman 150rb,CreateTransaction,Income,Other Income,v08_allowance_06
